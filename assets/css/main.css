@@ -244,10 +244,9 @@ a {
     border-bottom-color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-  border-bottom: dotted 1px;
-  color: #16a4e0;
-  text-decoration: none;
+   color: #16a4e0;
 }
+
 a:hover {
   /* border-bottom-color: #f56a6a; */
   color: #2453ee !important;
@@ -3073,9 +3072,11 @@ button:disabled,
 #footer .copyright {
   color: #9fa3a6;
   font-size: 0.9em;
+  text-decoration: none;
 }
 #footer .copyright a {
   color: inherit;
+  text-decoration: none;
 }
 
 /* Menu */
