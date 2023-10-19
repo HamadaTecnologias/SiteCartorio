@@ -3069,7 +3069,7 @@ button:disabled,
   }
 }
 
-/* Footer */
+/* Footer inside Sidebar*/
 #footer .copyright {
   color: #9fa3a6;
   font-size: 0.9em;
@@ -3179,4 +3179,121 @@ button:disabled,
   border-top: 0;
   margin-top: 0;
   padding-top: 0;
+}
+
+.wave {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url(../../images/wave.png);
+  background-size: 1000px 100px;
+}
+
+.wave#wave1 {
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWave 6s linear infinite;
+}
+.wave#wave2 {
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animateWave_02 6s linear infinite;
+}
+.wave#wave3 {
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 15px; 
+  animation: animateWave 5s linear infinite;
+}
+.wave#wave4 {
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 10px;
+  animation: animateWave_02 5s linear infinite;
+}
+@keyframes animateWave {
+  0%
+  {
+    background-position-x: 1000px;
+  }
+  100%
+  {
+    background-position-x: 0px;
+  }
+  
+}
+@keyframes animateWave_02 {
+  0%
+  {
+    background-position-x: 0px;
+  }
+  100%
+  {
+    background-position-x: 1000px;
+  }
+  
+}
+
+.footer-out {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background-color: #3586ff;
+  min-height: 6rem;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social_icons, .menu{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social_icons li, .menu {
+  list-style: none;
+}
+
+.social_icons li a{
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.8s;
+}
+
+.social_icons li a:hover{
+  transform: translateY(-10px);
+}
+
+.menu li a{
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.8s;
+  text-decoration: none;
+  opacity: 0.75;
+}
+
+.menu li a:hover{
+  opacity: 1;
+}
+
+.paragraph-footer-out{
+  color: #fff;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 10px;
+  font-size: 1rem;
 }

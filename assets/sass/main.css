@@ -2809,7 +2809,7 @@ button:disabled,
   right: 0;
 }
 #menu ul a.opener:hover:before, #menu ul span.opener:hover:before {
-  color: #f56a6a;
+  color: #16a4e0;
 }
 #menu ul a.opener.active + ul, #menu ul span.opener.active + ul {
   display: block;
