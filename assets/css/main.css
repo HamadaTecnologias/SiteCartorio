@@ -245,6 +245,7 @@ a {
   -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
    color: #16a4e0;
+   text-decoration: none;
 }
 
 a:hover {
@@ -1573,6 +1574,7 @@ header.main > :last-child {
   justify-content: space-around;
   flex-wrap: wrap;
   text-align: center;
+  cursor: pointer;
 }
 
 .icon-service{
@@ -3196,7 +3198,7 @@ button:disabled,
   z-index: 1000;
   opacity: 1;
   bottom: 0;
-  animation: animateWave 6s linear infinite;
+  animation: animateWave 8s linear infinite;
 }
 .wave#wave2 {
   z-index: 999;
@@ -3250,9 +3252,10 @@ button:disabled,
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  max-height: 120px;
 }
 
-.social_icons, .menu{
+.social_icons {
   position: relative;
   display: flex;
   justify-content: center;
@@ -3261,14 +3264,14 @@ button:disabled,
   flex-wrap: wrap;
 }
 
-.social_icons li, .menu {
+.social_icons li {
   list-style: none;
 }
 
 .social_icons li a{
   font-size: 2rem;
   color: #fff;
-  margin: 0 10px;
+  margin: 0 5px;
   display: inline-block;
   transition: 0.8s;
 }
@@ -3277,24 +3280,41 @@ button:disabled,
   transform: translateY(-10px);
 }
 
-.menu li a{
-  font-size: 1.2rem;
-  color: #fff;
-  margin: 0 10px;
-  display: inline-block;
-  transition: 0.8s;
-  text-decoration: none;
-  opacity: 0.75;
-}
-
-.menu li a:hover{
-  opacity: 1;
-}
-
 .paragraph-footer-out{
   color: #fff;
   text-align: center;
   margin-top: 1rem;
   margin-bottom: 10px;
   font-size: 1rem;
+  position: relative;
+  top: -20px;
+}
+
+@media screen and (max-width:480px){
+  .footer-out {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: #3586ff;
+    min-height: 6rem;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-height: 140px;
+  }
+  .paragraph-footer-out{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 15px;
+    position: relative;
+    top: -20px;
+  }
+}
+
+@media screen and (max-width:980px){
+  .footer-out{
+    max-height: 180px;
+  }
 }
