@@ -2792,6 +2792,7 @@ button:disabled,
 
 #sidebar h2 {
   font-size: 1.38889em;
+  color: #ffffff;
 }
 #sidebar > .inner {
   padding: 2.22222em 2.22222em 2.44444em 2.22222em;
@@ -2814,7 +2815,7 @@ button:disabled,
 }
 /* cor do fundo do serach menu escondido */
 #sidebar > .inner > .alt {
-  background-color: #ff0000;
+  background-color: #ffffff;
   border-bottom: 0;
   margin: -2.22222em 0 4.44444em -2.22222em;
   padding: 2.22222em;
@@ -2939,15 +2940,17 @@ button:disabled,
     text-indent: 7.25em;
     width: 7.25em;
   }
+  
   #sidebar .toggle:before {
-    color: #fa0a0a;
+    color: #ffffff;
     margin-left: -0.0625em;
     margin-top: -0.25em;
     font-size: 1.1rem;
     z-index: 1;
   }
+  /* cor do hamburgue do menu  */
   #sidebar .toggle:after {
-    background: rgba(243, 16, 0, 0.75);
+    /* background: rgba(255, 255, 255, 0.75); */
     border-radius: 0.375em;
     content: "";
     height: 3.5em;
@@ -3124,7 +3127,7 @@ button:disabled,
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  color: #205872   ;
+  color: #ffffff   ;
   font-family: "Roboto Slab", serif;
   font-weight: 400;
   letter-spacing: 0.075em;
@@ -3175,7 +3178,7 @@ button:disabled,
   -webkit-transition: color 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out, -ms-transform 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
-  color: #000000;
+  color: #ffffff;
   content: "\f078";
   position: absolute;
   right: 0;
@@ -3203,7 +3206,7 @@ button:disabled,
 }
 /* letras de dentro da cascada serviços */
 #menu > ul > li > ul {
-  color: #205872   ;
+  color: #ffffff   ;
   display: none;
   margin: 0.5em 0 1.5em 0;
   padding-left: 1em;
@@ -3224,7 +3227,7 @@ button:disabled,
 
 
 .section-menu-escondido-header h2, p, ul, li{
-    color: #205872 ;
+    color: #ffffff ;
 
  } 
 
