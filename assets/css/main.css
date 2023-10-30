@@ -185,6 +185,7 @@ body{
 .inicial{
   height: calc(100vh + 150px);
   background: no-repeat center/cover url('../css/css-assets/header.png');
+  
 }
 body.is-preload *,
 body.is-preload *:before,
@@ -206,9 +207,10 @@ body.is-resizing *:after {
 body,
 input,
 select,
+/* texto da Sobre o Cartorio - home page */
 textarea {
-  color: #7f888f;
-  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  font-family: "Roboto Slab", serif;
   font-size: 13pt;
   font-weight: 400;
   line-height: 1.65;
@@ -250,7 +252,7 @@ a {
 
 a:hover {
   /* border-bottom-color: #f56a6a; */
-  color: #2453ee !important;
+  color: #205872 !important;
 }
 a:hover strong {
   color: inherit;
@@ -353,7 +355,7 @@ sup {
   position: relative;
   top: -0.5em;
 }
-
+/* texto modelo contido na paigna elements */
 blockquote {
   border-left: solid 3px rgba(255, 0, 0, 0.75);
   font-style: italic;
@@ -1522,6 +1524,7 @@ article.special {
 }
 
 header p {
+
   font-family: "Roboto Slab", serif;
   font-size: 1em;
   font-weight: 400;
@@ -1547,6 +1550,7 @@ header.main > :last-child {
   color: rgb(0, 0, 0);
 }
 
+/* linha que aparece a baixo do titulo da section */
 .title-service::after {
   content: " ";
   width: 0%;
@@ -1625,13 +1629,13 @@ form {
 }
 
 label {
-  color: #f00707;
+  color: #205872  ;
   display: block;
   font-size: 0.9em;
   font-weight: 600;
   margin: 0 0 1em 0;
 }
-
+/* background do fomulario de preenchimento da pagina elements */
 input[type="text"],
 input[type="password"],
 input[type="email"],
@@ -1644,10 +1648,10 @@ textarea {
   -webkit-appearance: none;
   -ms-appearance: none;
   appearance: none;
-  background: #ffffff;
+  background: #7575753d   ;
   border-radius: 0.375em;
   border: none;
-  border: solid 1px rgba(210, 215, 217, 0.75);
+  border: solid 1px #16a4e0   ;
   color: inherit;
   display: block;
   outline: 0;
@@ -1665,6 +1669,7 @@ select:invalid,
 textarea:invalid {
   box-shadow: none;
 }
+/* cor do select hover dos formularios da pagina elements */
 input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus,
@@ -1673,8 +1678,8 @@ input[type="search"]:focus,
 input[type="url"]:focus,
 select:focus,
 textarea:focus {
-  border-color: #1649e0;
-  box-shadow: 0 0 0 1px #1138ad;
+  border-color: #16a4e0   ;
+  box-shadow: 0 0 0 1px #16a4e0   ;
 }
 
 select {
@@ -1688,7 +1693,7 @@ select {
 }
 select option {
   color: #ff0000;
-  background: #ffffff;
+  background: #ff0000;
 }
 select:focus::-ms-value {
   background-color: transparent;
@@ -1724,10 +1729,11 @@ input[type="radio"] {
   width: 1em;
   z-index: -1;
 }
+/* letras das opções de marcar do form na pagina elements */
 input[type="checkbox"] + label,
 input[type="radio"] + label {
   text-decoration: none;
-  color: #f00000;
+  color: #2f00ff;
   cursor: pointer;
   display: inline-block;
   font-size: 1em;
@@ -1749,9 +1755,10 @@ input[type="radio"] + label:before {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
 }
+/* background da bolinha para marcar a opção na pagina elements */
 input[type="checkbox"] + label:before,
 input[type="radio"] + label:before {
-  background: #ffffff;
+  background: #ff0000;
   border-radius: 0.375em;
   border: solid 1px rgba(210, 215, 217, 0.75);
   content: "";
@@ -2045,9 +2052,10 @@ ul.contact {
   list-style: none;
   padding: 0;
 }
+/* divisor de section no menu escondido, aba de contatos */
 ul.contact li {
   text-decoration: none;
-  border-top: solid 1px rgba(255, 255, 255, 0.75);
+  border-top: solid 1px #16a4e0;
   margin: 1.5em 0 0 0;
   padding: 1.5em 0 0 3em;
   position: relative;
@@ -2077,7 +2085,7 @@ ul.contact li:before {
   width: 1.5em;
 }
 ul.contact li:hover::before {
-  color: #1648e0dc;
+  color: #205872;
   transition: 0.9s;
   transform: scale(1.1);
 }
@@ -2121,15 +2129,17 @@ ul.pagination li > .page {
   padding: 0 0.5em;
   text-align: center;
 }
+
+/* cores do passador de pagina que tem na page elements */
 ul.pagination li > .page.active {
-  background-color: black;
+  background-color: rgb(17, 0, 255);
   color: #ffffff !important;
 }
 ul.pagination li > .page.active:hover {
-  background-color: black;
+  background-color: rgb(255, 0, 255);
 }
 ul.pagination li > .page.active:active {
-  background-color: black;
+  background-color: rgb(51, 255, 0);
 }
 ul.pagination li:first-child {
   padding-right: 0.75em;
@@ -2156,13 +2166,14 @@ table {
   margin: 0 0 2em 0;
   width: 100%;
 }
+/* cores das linhas da tabela */
 table tbody tr {
-  border: solid 1px rgba(210, 215, 217, 0.75);
+  border: solid 1px rgba(72, 255, 0, 0.75);
   border-left: 0;
   border-right: 0;
 }
 table tbody tr:nth-child(2n + 1) {
-  background-color: rgba(230, 235, 237, 0.25);
+  background-color: rgba(5, 165, 0, 0.25);
 }
 table td {
   padding: 0.75em 0.75em;
@@ -2174,17 +2185,19 @@ table th {
   padding: 0 0.75em 0.75em 0.75em;
   text-align: left;
 }
+/* barra que divide cabeçalho da tabela page elements */
 table thead {
-  border-bottom: solid 2px rgba(231, 0, 0, 0.75);
+  border-bottom: solid 2px rgba(42, 0, 231, 0.75);
 }
 table tfoot {
-  border-top: solid 2px rgba(210, 215, 217, 0.75);
+  border-top: solid 2px rgba(18, 0, 180, 0.75);
 }
 table.alt {
   border-collapse: separate;
 }
+/* cores das linhas de divisória de celulas da tabela page elements */
 table.alt tbody tr td {
-  border: solid 1px rgba(210, 215, 217, 0.75);
+  border: solid 1px rgba(255, 0, 221, 0.75);
   border-left-width: 0;
   border-top-width: 0;
 }
@@ -2202,6 +2215,7 @@ table.alt tfoot {
 }
 
 /* Button */
+/* cores de todos botoes */
 input[type="submit"],
 input[type="reset"],
 input[type="button"],
@@ -2234,12 +2248,13 @@ button,
   text-transform: uppercase;
   white-space: nowrap;
 }
+/* cor backgroud do hover */
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover,
 button:hover,
 .button:hover {
-  background-color: rgba(11, 38, 200, 0.05);
+  background-color: rgba(255, 255, 255, 0.384);
 }
 
 input[type="submit"]:active,
@@ -2247,7 +2262,7 @@ input[type="reset"]:active,
 input[type="button"]:active,
 button:active,
 .button:active {
-  background-color: rgba(245, 106, 106, 0.15);
+  background-color: rgba(228, 228, 228, 0.356);
 }
 input[type="submit"].icon:before,
 input[type="reset"].icon:before,
@@ -2293,14 +2308,14 @@ input[type="reset"].primary:hover,
 input[type="button"].primary:hover,
 button.primary:hover,
 .button.primary:hover {
-  background-color: black;
+  background-color: rgba(241, 241, 241, 0.363);
 }
 input[type="submit"].primary:active,
 input[type="reset"].primary:active,
 input[type="button"].primary:active,
 button.primary:active,
 .button.primary:active {
-  background-color: black;
+  background-color: rgba(255, 255, 255, 0.418);
 }
 input[type="submit"].disabled,
 input[type="submit"]:disabled,
@@ -2317,8 +2332,9 @@ button:disabled,
 }
 
 /* Mini Posts */
+/* cor da divisoria dos posts do menu escondido */
 .mini-posts article {
-  border-top: solid 1px rgba(25, 0, 255, 0.75);
+  border-top: solid 1px #16a4e0;
   margin-top: 2em;
   padding-top: 2em;
 }
@@ -2389,7 +2405,7 @@ button:disabled,
   width: 10em;
 }
 .features article .icon:before {
-  color: #060e4e;
+  color: #ff0000;
   font-size: 2.75rem;
   position: relative;
   top: 0.05em;
@@ -2751,6 +2767,7 @@ button:disabled,
 
 
 #sidebar {
+  /* cor do fundo do menu escondido */
   -moz-flex-grow: 0;
   -webkit-flex-grow: 0;
   -ms-flex-grow: 0;
@@ -2763,7 +2780,7 @@ button:disabled,
   -webkit-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   -ms-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   transition: margin-left 0.5s ease, box-shadow 0.5s ease;
-  background-color: #2839d1a6;
+  background-color: #20587298;
   font-size: 0.9em;
   position: relative;
   width: 26em;
@@ -2781,8 +2798,9 @@ button:disabled,
   position: relative;
   width: 26em;
 }
+/* cor do divisor de section do menu escondido */
 #sidebar > .inner > * {
-  border-bottom: solid 2px rgb(255, 255, 255);
+  border-bottom: solid 2px #16a4e0;
   margin: 0 0 3.5em 0;
   padding: 0 0 3.5em 0;
 }
@@ -2794,8 +2812,9 @@ button:disabled,
   margin-bottom: 0;
   padding-bottom: 0;
 }
+/* cor do fundo do serach menu escondido */
 #sidebar > .inner > .alt {
-  background-color: #0004ff;
+  background-color: #ff0000;
   border-bottom: 0;
   margin: -2.22222em 0 4.44444em -2.22222em;
   padding: 2.22222em;
@@ -2941,29 +2960,40 @@ button:disabled,
 
 /* Header */
 #header {
-  display: -moz-flex;
+  /* display: -moz-flex;
   display: -webkit-flex;
-  display: -ms-flex;
+  display: -ms-flex; */
+  /* position: relative; */
   display: flex;
-  border-bottom: solid 5px #16a4e0;
-  padding: 6em 0 1em 0;
-  position: relative;
+  flex-direction: row;
+  padding: 16em 0 0 0 ;
+  /* border-bottom: solid 5px #ffffff; */
+  justify-content: flex-start;
+
 }
+
 #header > * {
-  -moz-flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  margin-bottom: 0;
+  /* -moz-flex: 1;
+  -webkit-flex: 1; */
+  /* -ms-flex: 1; */
+  /* flex: 1; */
+  /* margin-bottom: 0; */
+  padding-left: 70px;
+  gap: 5px;
+
+
+
+ 
 }
 #header .logo {
-  border-bottom: 0;
+ 
   color: inherit;
   font-family: "Roboto Slab", serif;
   font-size: 1.125em;
+  
 }
 #header .icons {
-  text-align: right;
+  text-align: center;
 }
 @media screen and (max-width: 1680px) {
   #header {
@@ -3094,7 +3124,7 @@ button:disabled,
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  color: #3d4449;
+  color: #205872   ;
   font-family: "Roboto Slab", serif;
   font-weight: 400;
   letter-spacing: 0.075em;
@@ -3114,7 +3144,7 @@ button:disabled,
 }
 #menu ul a:hover,
 #menu ul span:hover {
-  color: #1649e0;
+  color: #16a4e0  ;
 }
 #menu ul a.opener,
 #menu ul span.opener {
@@ -3123,7 +3153,7 @@ button:disabled,
   -ms-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
   text-decoration: none;
-  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-tap-highlight-color: #16a4e0    ;
   position: relative;
 }
 #menu ul a.opener:before,
@@ -3145,7 +3175,7 @@ button:disabled,
   -webkit-transition: color 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out, -ms-transform 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
-  color: #9fa3a6;
+  color: #000000;
   content: "\f078";
   position: absolute;
   right: 0;
@@ -3167,12 +3197,13 @@ button:disabled,
 }
 
 #menu > ul > li {
-  border-top: solid 1px rgba(210, 215, 217, 0.75);
+  border-top: solid 1px #16a4e0;
   margin: 0.5em 0 0 0;
   padding: 0.5em 0 0 0;
 }
+/* letras de dentro da cascada serviços */
 #menu > ul > li > ul {
-  color: #9fa3a6;
+  color: #205872   ;
   display: none;
   margin: 0.5em 0 1.5em 0;
   padding-left: 1em;
@@ -3191,6 +3222,16 @@ button:disabled,
   padding-top: 0;
 }
 
+
+.section-menu-escondido-header h2, p, ul, li{
+    color: #205872 ;
+
+ } 
+
+ .logo-sidebar{
+  width: 350px; 
+ }
+
 .wave {
   position: absolute;
   top: -100px;
@@ -3199,6 +3240,7 @@ button:disabled,
   height: 100px;
   background: url(../images/wave.png);
   background-size: 1000px 100px;
+  
 }
 
 .wave#wave1 {
@@ -3421,3 +3463,197 @@ button:disabled,
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
+
+/* inicio carrossel */
+
+.slider{
+
+  margin: 0 auto;
+  width: 1100px;
+  height: 500px;
+  overflow: hidden;
+}
+/*classes hover*/
+.slider .container{
+  position: relative;
+  width: 950px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+
+.container .card {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background-color: rgb(32, 116, 189);
+  margin: 20px 20px;
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s ease-in-out;
+}
+
+.container .card:hover{
+  height: 400px;
+}
+
+.container .card .imgBx{
+  position: relative;
+  width: 260px;
+  height: 260px;
+  top: -60px;
+  left: 20px;
+  z-index: 1;
+  box-shadow: 0 5px 20px rgb(0, 0, 0, 0, 5);
+}
+
+.container .card .imgBx img{
+  max-width: 100%;
+  border-radius: 4px; 
+}
+
+
+
+.container .card .content{
+  position: relative;
+  margin-top: -140px;
+  padding: 10px 15px;
+  text-align: center;
+  color: #ffffff;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.container .card:hover .content{
+  visibility: visible;
+  opacity: 1;
+  margin-top: -40px;
+  transition-delay: 0.3s;
+}
+
+/*fim classes hover*/
+
+.slides{
+
+  width: 100%;
+  height: 400px;
+  display: flex;
+
+}
+
+.slides input{
+
+  display: none;
+
+}
+
+.slide{
+
+  width:50%;
+  position: relative;
+  transition: 2s;
+
+}
+
+.slide img{
+
+  width: 800px;
+  
+}
+
+.manual-navigation{
+
+position: absolute;
+width: 800px;
+margin-top: -40px;
+display: flex;
+justify-content: center;    
+
+}
+
+.manual-btn{
+
+  border: 2px solid #1713d8;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+
+}
+
+.manual-btn:not(:last-child){
+  margin-right: 40px;
+}
+
+.manual-btn:hover{
+  background-color: #00d9e9;
+}
+
+
+#radio1:checked ~ .first{
+
+  margin-left: 0;
+  
+}
+
+#radio2:checked ~.first{
+
+  margin-left: -90%;
+
+}
+
+#radio3:checked ~ .first{
+
+  margin-left: -200%;
+
+}
+
+
+
+
+.navigation-auto div{
+
+  border:2px solid #20a6ff;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.navigation-auto{
+
+  position:absolute;
+  width: 800px;
+  margin-top: 360px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.navigation-auto div:not(:last-child){
+
+  margin-right: 40px;
+
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+  background-color: #fff;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+  background-color: #fff;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+  background-color: #fff;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+  background-color: #fff;
+}
+
+/* fim carrossel */
