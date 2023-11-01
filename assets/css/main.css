@@ -251,8 +251,8 @@ a {
 }
 
 a:hover {
-  /* border-bottom-color: #f56a6a; */
-  color: #205872 !important;
+  /* color: #2453ee !important; */
+  color: #29F4FA !important;
 }
 a:hover strong {
   color: inherit;
@@ -1581,6 +1581,10 @@ header.main > :last-child {
   cursor: pointer;
 }
 
+.service-description-subtitle{
+  color: #3d4449;
+}
+
 .icon-service {
   width: 5rem;
   height: 5rem;
@@ -1648,10 +1652,10 @@ textarea {
   -webkit-appearance: none;
   -ms-appearance: none;
   appearance: none;
-  background: #7575753d   ;
+  background: #75757517;
   border-radius: 0.375em;
   border: none;
-  border: solid 1px #16a4e0   ;
+  border: solid 1px #16a4e0;
   color: inherit;
   display: block;
   outline: 0;
@@ -2055,7 +2059,7 @@ ul.contact {
 /* divisor de section no menu escondido, aba de contatos */
 ul.contact li {
   text-decoration: none;
-  border-top: solid 1px #16a4e0;
+  border-top: solid 1px #29F4FA;;
   margin: 1.5em 0 0 0;
   padding: 1.5em 0 0 3em;
   position: relative;
@@ -2073,7 +2077,8 @@ ul.contact li:before {
   font-weight: 400;
 }
 ul.contact li:before {
-  color: rgba(0, 0, 0, 0.801);
+  /* color: rgba(0, 0, 0, 0.801); */
+  color: white;
   display: inline-block;
   font-size: 1.5em;
   height: 1.125em;
@@ -2085,7 +2090,7 @@ ul.contact li:before {
   width: 1.5em;
 }
 ul.contact li:hover::before {
-  color: #205872;
+  color: #29F4FA;
   transition: 0.9s;
   transform: scale(1.1);
 }
@@ -2780,20 +2785,19 @@ button:disabled,
   -webkit-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   -ms-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   transition: margin-left 0.5s ease, box-shadow 0.5s ease;
-  background-color: #20587298;
+  /* background-color: #242e33fd; */
+  background-color: #3A7791;
   font-size: 0.9em;
   position: relative;
   width: 26em;
 }
 
-
-
-
-
+/* 
 #sidebar h2 {
   font-size: 1.38889em;
   color: #ffffff;
-}
+} */
+
 #sidebar > .inner {
   padding: 2.22222em 2.22222em 2.44444em 2.22222em;
   position: relative;
@@ -2801,7 +2805,7 @@ button:disabled,
 }
 /* cor do divisor de section do menu escondido */
 #sidebar > .inner > * {
-  border-bottom: solid 2px #16a4e0;
+  border-bottom: solid 2px white;
   margin: 0 0 3.5em 0;
   padding: 0 0 3.5em 0;
 }
@@ -3112,8 +3116,8 @@ button:disabled,
 
 /* Footer inside Sidebar*/
 #footer .copyright {
-  color: #9fa3a6;
-  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.644);
+  font-size: 0.85rem;
   text-decoration: none;
 }
 #footer .copyright a {
@@ -3142,12 +3146,13 @@ button:disabled,
   color: inherit;
   cursor: pointer;
   display: block;
-  font-size: 0.9em;
+  font-size: 0.95em;
   padding: 0.625em 0;
 }
+
 #menu ul a:hover,
 #menu ul span:hover {
-  color: #16a4e0  ;
+  color: #29F4FA;
 }
 #menu ul a.opener,
 #menu ul span.opener {
@@ -3156,7 +3161,7 @@ button:disabled,
   -ms-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
   text-decoration: none;
-  -webkit-tap-highlight-color: #16a4e0    ;
+  -webkit-tap-highlight-color: #29F4FA;;
   position: relative;
 }
 #menu ul a.opener:before,
@@ -3185,7 +3190,7 @@ button:disabled,
 }
 #menu ul a.opener:hover:before,
 #menu ul span.opener:hover:before {
-  color: #16a4e0;
+  color: #29F4FA;
 }
 #menu ul a.opener.active + ul,
 #menu ul span.opener.active + ul {
@@ -3200,7 +3205,7 @@ button:disabled,
 }
 
 #menu > ul > li {
-  border-top: solid 1px #16a4e0;
+  border-top: solid 1px #29F4FA;
   margin: 0.5em 0 0 0;
   padding: 0.5em 0 0 0;
 }
@@ -3368,7 +3373,7 @@ button:disabled,
 .informative-footer-out-general {
   width: 100%;
   bottom: 0;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
   text-decoration: none;
   padding: 1.5rem;
   border-radius: 10px;
@@ -3377,7 +3382,7 @@ button:disabled,
 .content-footer-out {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  padding: 2rem 0;
+  padding: 3rem 0;
   grid-gap: 2.5rem;
 }
 
@@ -3451,6 +3456,14 @@ button:disabled,
   width: 100%;
   border-radius: 5px;
   font-size: 0.9rem;
+}
+
+.button-submit{
+  background-color: #20a6ff;
+}
+
+.button-submit:hover{
+  background-color: #2453ee;
 }
 
 @media screen and (max-width: 768px){
