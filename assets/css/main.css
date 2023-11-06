@@ -2985,8 +2985,8 @@ button:disabled,
   /* -ms-flex: 1; */
   /* flex: 1; */
   /* margin-bottom: 0; */
-  padding-left: 70px;
   gap: 5px;
+
 
 
 
@@ -3001,6 +3001,7 @@ button:disabled,
 }
 #header .icons {
   text-align: center;
+  padding-left: 180px;
 }
 @media screen and (max-width: 1680px) {
   #header {
@@ -3026,11 +3027,13 @@ button:disabled,
 
 /* Banner */
 #banner {
-  padding: 6em 0 4em 0;
+  padding: 6em 0 0 0;
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
+  margin-top: -100px;
+  margin-bottom: 200px;
 }
 #banner h1 {
   margin-top: -0.125em;
@@ -3045,6 +3048,7 @@ button:disabled,
   -ms-flex-shrink: 1;
   flex-shrink: 1;
   width: 50%;
+  text-align: justify;
 }
 #banner .image {
   -moz-flex-grow: 0;
@@ -3056,8 +3060,9 @@ button:disabled,
   -ms-flex-shrink: 0;
   flex-shrink: 0;
   display: block;
-  margin: 0 0 2em 4em;
-  width: 50%;
+  margin: 9.5em 6em 0 1em;
+  width: 45%;
+  
 }
 #banner .image img {
   height: 100%;
@@ -3070,6 +3075,7 @@ button:disabled,
   -ms-object-position: center;
   object-position: center;
   width: 100%;
+  border-radius: 10px;
 }
 @media screen and (orientation: portrait) {
   #banner {
@@ -3483,11 +3489,21 @@ button:disabled,
 
 /* inicio carrossel */
 
+.conteudo-secundario{
+ 
+  display: flex;
+  width: 1800px;
+  height: 800px;
+  justify-content: center;
+  align-items: baseline;
+  margin: 0 20em 0 -70px;
+}
+
 .slider{
 
   margin: 0 auto;
-  width: 1100px;
-  height: 500px;
+  width: 1600px;
+  height: 800px;
   overflow: hidden;
 }
 /*classes hover*/
@@ -3502,63 +3518,10 @@ button:disabled,
 }
 
 
-.container .card {
-  position: relative;
-  width: 300px;
-  height: 200px;
-  background-color: rgb(32, 116, 189);
-  margin: 20px 20px;
-  padding: 20px 0px;
-  display: flex;
-  flex-direction: column;
-  transition: 0.3s ease-in-out;
-}
-
-.container .card:hover{
-  height: 400px;
-}
-
-.container .card .imgBx{
-  position: relative;
-  width: 260px;
-  height: 260px;
-  top: -60px;
-  left: 20px;
-  z-index: 1;
-  box-shadow: 0 5px 20px rgb(0, 0, 0, 0, 5);
-}
-
-.container .card .imgBx img{
-  max-width: 100%;
-  border-radius: 4px; 
-}
-
-
-
-.container .card .content{
-  position: relative;
-  margin-top: -140px;
-  padding: 10px 15px;
-  text-align: center;
-  color: #ffffff;
-  visibility: hidden;
-  opacity: 0;
-  transition: 0.3s ease-in-out;
-}
-
-.container .card:hover .content{
-  visibility: visible;
-  opacity: 1;
-  margin-top: -40px;
-  transition-delay: 0.3s;
-}
-
-/*fim classes hover*/
-
 .slides{
 
   width: 100%;
-  height: 400px;
+  height: 600px;
   display: flex;
 
 }
@@ -3572,16 +3535,81 @@ button:disabled,
 .slide{
 
   width:50%;
+  margin-top: 50px;
   position: relative;
   transition: 2s;
 
 }
 
-.slide img{
+/* .slide img{
 
   width: 800px;
   
+} */
+
+
+.container .card {
+  position: relative;
+  width: 500px;
+  height: 200px;
+  background-color: rgb(32, 116, 189);
+  margin: 20px 20px;
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15) ;
 }
+
+.container .card:hover{
+  height: 600px;
+}
+
+.container .card .imgBx{
+  position: relative;
+  width: 400px;
+  height: 400px;
+  top: -60px;
+  left: 50px;
+  z-index: 1;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0, 5);
+}
+
+.container .card .imgBx img{
+  max-width: 100%;
+  width: 400px;
+  height: 300px;
+  border-radius: 4px; 
+}
+
+
+
+.container .card .content{
+  position: relative;
+  margin-top: -150px;
+  padding: 10px 15px;
+  text-align: center;
+  color: #ffffff;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+.container .card .content p{
+
+text-align: justify;
+
+}
+
+.container .card:hover .content{
+  visibility: visible;
+  opacity: 1;
+  margin-top: -150px;
+  transition-delay: 0.3s;
+}
+
+/*fim classes hover*/
+
+
 
 .manual-navigation{
 
@@ -3591,13 +3619,14 @@ margin-top: -40px;
 display: flex;
 justify-content: center;    
 
+
 }
 
 .manual-btn{
 
   border: 2px solid #1713d8;
   padding: 5px;
-  border-radius: 10px;
+  border-radius: 3px;
   cursor: pointer;
   transition: 1s;
 
@@ -3620,56 +3649,14 @@ justify-content: center;
 
 #radio2:checked ~.first{
 
-  margin-left: -90%;
+  margin-left: -102%;
 
 }
 
 #radio3:checked ~ .first{
 
-  margin-left: -200%;
+  margin-left: -204%;
 
-}
-
-
-
-
-.navigation-auto div{
-
-  border:2px solid #20a6ff;
-  padding: 5px;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: 1s;
-}
-
-.navigation-auto{
-
-  position:absolute;
-  width: 800px;
-  margin-top: 360px;
-  display: flex;
-  justify-content: center;
-
-}
-
-.navigation-auto div:not(:last-child){
-
-  margin-right: 40px;
-
-}
-
-#radio1:checked ~ .navigation-auto .auto-btn1{
-  background-color: #fff;
-}
-
-#radio2:checked ~ .navigation-auto .auto-btn2{
-  background-color: #fff;
-}
-#radio3:checked ~ .navigation-auto .auto-btn3{
-  background-color: #fff;
-}
-#radio4:checked ~ .navigation-auto .auto-btn4{
-  background-color: #fff;
 }
 
 /* fim carrossel */
