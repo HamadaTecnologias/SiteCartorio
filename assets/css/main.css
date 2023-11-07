@@ -3496,12 +3496,12 @@ button:disabled,
   height: 800px;
   justify-content: center;
   align-items: baseline;
-  margin: 0 20em 0 -70px;
+  margin: 0 0 -100px -70px;
 }
 
 .slider{
 
-  margin: 0 auto;
+  /* margin: 0 ; */
   width: 1600px;
   height: 800px;
   overflow: hidden;
@@ -3537,7 +3537,7 @@ button:disabled,
   width:50%;
   margin-top: 50px;
   position: relative;
-  transition: 2s;
+  transition: 5s;
 
 }
 
@@ -3551,7 +3551,7 @@ button:disabled,
 .container .card {
   position: relative;
   width: 500px;
-  height: 200px;
+  height: 300px;
   background-color: rgb(32, 116, 189);
   margin: 20px 20px;
   padding: 20px 0px;
@@ -3594,6 +3594,7 @@ button:disabled,
   opacity: 0;
   transition: 0.3s ease-in-out;
 }
+
 .container .card .content p{
 
 text-align: justify;
