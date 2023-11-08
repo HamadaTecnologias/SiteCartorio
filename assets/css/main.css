@@ -3783,7 +3783,7 @@ textarea {
 
 /* Início Responsividade Geral da Página */
 
-/* JA ESTA RESPONSIVO RGI CONTENT */
+
 @media screen and (max-width: 480px) {
   .content-container {
     display: flex;
@@ -3864,6 +3864,7 @@ textarea {
   }
 }
 
+
 @media screen and (min-width: 480px) and (max-width: 568px) {
   .content-container {
     display: flex;
@@ -3895,7 +3896,57 @@ textarea {
     padding: 0;
     margin: 0;
   }
+
+  .container-rgi {
+    display: flex;
+    flex-direction: row;
+    background-color: #16a3e02c;
+    height: 50rem;
+    width: 700px;
+    margin: 5px;
+    margin-top: 4rem;
+  }
+  
+  .rgi-concept {
+    width: 500px;
+    align-self: center;
+    height: 500px;
+    margin: 0;
+  }
+  
+  .rgi-content-pic {
+    width: 18rem;
+    height: 400px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 5px solid #16a3e0b9;
+    border-radius: 20px;
+  }
+  
+  .title-rgi {
+    font-family: "Roboto Slab", sans serif;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 30px;
+    margin-top: -120px;
+    padding: 0;
+  }
+  
+  .paragraph {
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    color: black;
+    text-indent: 10px;
+    font-size: 0.8rem;
+    flex-wrap: wrap;
+    width: 28rem;
+    padding: 5px;
+  }
 }
+
 
 @media screen and (min-width: 568px) and (max-width: 768px) {
   .content-container {
@@ -3928,6 +3979,55 @@ textarea {
     padding: 0;
     margin: 0;
   }
+
+  .container-rgi {
+    display: flex;
+    flex-direction: row;
+    background-color: #16a3e02c;
+    height: 50rem;
+    width: 700px;
+    margin: 5px;
+    margin-top: 4rem;
+  }
+  
+  .rgi-concept {
+    width: 500px;
+    align-self: center;
+    height: 500px;
+    margin: 0;
+  }
+  
+  .rgi-content-pic {
+    width: 18rem;
+    height: 400px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 5px solid #16a3e0b9;
+    border-radius: 20px;
+  }
+  
+  .title-rgi {
+    font-family: "Roboto Slab", sans serif;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 30px;
+    margin-top: -120px;
+    padding: 0;
+  }
+  
+  .paragraph {
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    color: black;
+    text-indent: 10px;
+    font-size: 0.8rem;
+    flex-wrap: wrap;
+    width: 28rem;
+    padding: 5px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -3954,6 +4054,56 @@ textarea {
     border: 5px solid #16a3e0b9;
     border-radius: 20px;
   }
+ 
+  .container-rgi {
+    display: flex;
+    flex-direction: row;
+    background-color: #16a3e02c;
+    height: 50rem;
+    width: 1000px;
+    margin: 5px;
+    margin-top: 4rem;
+  }
+  
+  .rgi-concept {
+    width: 500px;
+    align-self: center;
+    height: 500px;
+    margin: 0;
+  }
+  
+  .rgi-content-pic {
+    width: 22rem;
+    height: 450px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 5px solid #16a3e0b9;
+    border-radius: 20px;
+  }
+  
+  .title-rgi {
+    font-family: "Roboto Slab", sans serif;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 30px;
+    margin-top: -120px;
+    padding: 0;
+  }
+  
+  .paragraph {
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    color: black;
+    text-indent: 10px;
+    font-size: 0.9rem;
+    flex-wrap: wrap;
+    width: 28rem;
+    padding: 5px;
+}
+
 }
 
 /* Fim - Responsividade Geral da Página */
