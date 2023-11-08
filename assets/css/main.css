@@ -3781,6 +3781,40 @@ textarea {
 
 /* Fim Conteúdo Específico - RGI */
 
+/* Começo do conteúdo de Averbação */
+
+.content-averbacao {
+  display: flex;
+  margin-top: 60px;
+  align-items: space-around;
+  justify-content: space-around;
+}
+
+.text-averbacao {
+  text-align: justify;
+  width: 500px;
+  color: black;
+  text-indent: 10px;
+  padding: 20px;
+  font-size: 1rem;
+}
+
+.title-averbacao {
+  color: black;
+  text-align: center;
+  margin-top: -5px;
+}
+
+.img-averbacao {
+  width: 500px;
+  height: 580px;
+  margin-top: 20px;
+  border: 5px solid #16a3e0b9;
+  border-radius: 20px;
+}
+
+/* Fim do Conteúdo de Averbação */
+
 /* Início Responsividade Geral da Página */
 
 
@@ -3825,15 +3859,14 @@ textarea {
     padding: 0;
     margin-top: 4rem;
   }
-  
+
   .rgi-concept {
     width: 12.5rem;
     align-self: center;
     height: 6.25rem;
     margin: 0;
-
   }
-  
+
   .rgi-content-pic {
     width: 12.5rem;
     height: 12.5rem;
@@ -3842,7 +3875,7 @@ textarea {
     border: 5px solid #16a3e0b9;
     border-radius: 20px;
   }
-  
+
   .title-rgi {
     font-family: "Roboto Slab", sans serif;
     text-align: center;
@@ -3852,7 +3885,7 @@ textarea {
     margin-top: -50px;
     padding: 0;
   }
-  
+
   .paragraph {
     text-align: justify;
     width: 18.75rem;
@@ -3861,6 +3894,43 @@ textarea {
     padding: 20px;
     font-size: 0.8rem;
     margin: 0;
+  }
+
+  .content-averbacao {
+    display: flex;
+    margin-top: 3.75rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 20rem;
+  }
+  
+  .text-averbacao {
+    text-align: justify;
+    width: 31rem;
+    color: black;
+    text-indent: 10px;
+    padding: 0.8rem;
+    font-size: 1rem;
+    padding: 5px;
+  }
+  
+  .title-averbacao {
+    color: black;
+    text-align: center;
+    margin-top: -5px;
+    text-align: center;
+  }
+  
+  .img-averbacao {
+    width: 19rem;
+    height: auto;
+    margin-top: 20px;
+    border: 5px solid #16a3e0b9;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
   }
 }
 
@@ -3906,14 +3976,14 @@ textarea {
     margin: 5px;
     margin-top: 4rem;
   }
-  
+
   .rgi-concept {
     width: 500px;
     align-self: center;
     height: 500px;
     margin: 0;
   }
-  
+
   .rgi-content-pic {
     width: 18rem;
     height: 400px;
@@ -3922,7 +3992,7 @@ textarea {
     border: 5px solid #16a3e0b9;
     border-radius: 20px;
   }
-  
+
   .title-rgi {
     font-family: "Roboto Slab", sans serif;
     text-align: center;
@@ -3932,7 +4002,7 @@ textarea {
     margin-top: -120px;
     padding: 0;
   }
-  
+
   .paragraph {
     text-align: justify;
     justify-content: center;
@@ -3944,6 +4014,45 @@ textarea {
     flex-wrap: wrap;
     width: 28rem;
     padding: 5px;
+  }
+  .content-averbacao {
+    display: flex;
+    margin-top: 3.75rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30rem;
+  }
+  
+  .text-averbacao {
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    width: 31rem;
+    color: black;
+    text-indent: 10px;
+    font-size: 0.8rem;
+    padding: 5px;
+    flex-wrap: wrap;
+  }
+  
+  .title-averbacao {
+    color: black;
+    text-align: center;
+    margin-top: -5px;
+    text-align: center;
+  }
+  
+  .img-averbacao {
+    width: 19rem;
+    height: auto;
+    margin-top: 20px;
+    border: 3px solid #16a3e0b9;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
   }
 }
 
@@ -3989,14 +4098,14 @@ textarea {
     margin: 5px;
     margin-top: 4rem;
   }
-  
+
   .rgi-concept {
     width: 500px;
     align-self: center;
     height: 500px;
     margin: 0;
   }
-  
+
   .rgi-content-pic {
     width: 18rem;
     height: 400px;
@@ -4005,7 +4114,7 @@ textarea {
     border: 5px solid #16a3e0b9;
     border-radius: 20px;
   }
-  
+
   .title-rgi {
     font-family: "Roboto Slab", sans serif;
     text-align: center;
@@ -4015,7 +4124,7 @@ textarea {
     margin-top: -120px;
     padding: 0;
   }
-  
+
   .paragraph {
     text-align: justify;
     justify-content: center;
@@ -4027,6 +4136,45 @@ textarea {
     flex-wrap: wrap;
     width: 28rem;
     padding: 5px;
+  }
+  .content-averbacao {
+    display: flex;
+    margin-top: 3.75rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40rem;
+  }
+  
+  .text-averbacao {
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    width: 34rem;
+    color: black;
+    text-indent: 10px;
+    font-size: 0.8rem;
+    padding: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .title-averbacao {
+    color: black;
+    text-align: center;
+    margin-top: -5px;
+    text-align: center;
+  }
+  
+  .img-averbacao {
+    width: 22rem;
+    height: auto;
+    margin-top: 20px;
+    border: 3px solid #16a3e0b9;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
   }
 }
 
@@ -4054,7 +4202,7 @@ textarea {
     border: 5px solid #16a3e0b9;
     border-radius: 20px;
   }
- 
+
   .container-rgi {
     display: flex;
     flex-direction: row;
@@ -4064,14 +4212,14 @@ textarea {
     margin: 5px;
     margin-top: 4rem;
   }
-  
+
   .rgi-concept {
     width: 500px;
     align-self: center;
     height: 500px;
     margin: 0;
   }
-  
+
   .rgi-content-pic {
     width: 22rem;
     height: 450px;
@@ -4080,7 +4228,7 @@ textarea {
     border: 5px solid #16a3e0b9;
     border-radius: 20px;
   }
-  
+
   .title-rgi {
     font-family: "Roboto Slab", sans serif;
     text-align: center;
@@ -4090,7 +4238,7 @@ textarea {
     margin-top: -120px;
     padding: 0;
   }
-  
+
   .paragraph {
     text-align: justify;
     justify-content: center;
@@ -4102,8 +4250,40 @@ textarea {
     flex-wrap: wrap;
     width: 28rem;
     padding: 5px;
-}
-
+  }
+  .content-averbacao {
+    display: flex;
+    margin-top: 3.75rem;
+    align-items: space-around;
+    justify-content: space-around;
+  }
+  
+  .text-averbacao {
+    text-align: justify;
+    width: 34rem;
+    color: black;
+    text-indent: 10px;
+    font-size: 0.9rem;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .title-averbacao {
+    color: black;
+    text-align: center;
+    margin-top: -5px;
+    text-align: center;
+  }
+  
+  .img-averbacao {
+    width: 25rem;
+    height: 35rem;
+    margin-top: 20px;
+    border: 3px solid #16a3e0b9;
+    border-radius: 20px;
+    padding: 0;
+    margin: 0;
+  }
 }
 
 /* Fim - Responsividade Geral da Página */
