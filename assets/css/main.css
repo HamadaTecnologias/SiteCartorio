@@ -3468,25 +3468,23 @@ textarea {
 
 /* inicio carrossel */
 
-.conteudo-secundario{
- 
+.conteudo-secundario {
   display: flex;
   width: 1800px;
   height: 800px;
   justify-content: center;
   align-items: baseline;
-  margin: 0 0 -100px -70px;
+  margin: 0 20em 0 -70px;
 }
 
-.slider{
-
-  /* margin: 0 ; */
+.slider {
+  margin: 0 auto;
   width: 1600px;
   height: 800px;
   overflow: hidden;
 }
 /*classes hover*/
-.slider .container{
+.slider .container {
   position: relative;
   width: 950px;
   display: flex;
@@ -3496,28 +3494,21 @@ textarea {
   padding: 30px;
 }
 
-
-.slides{
-
+.slides {
   width: 100%;
   height: 600px;
   display: flex;
-
 }
 
-.slides input{
-
+.slides input {
   display: none;
-
 }
 
-.slide{
-
-  width:50%;
+.slide {
+  width: 50%;
   margin-top: 50px;
   position: relative;
-  transition: 5s;
-
+  transition: 2s;
 }
 
 /* .slide img{
@@ -3526,25 +3517,24 @@ textarea {
   
 } */
 
-
 .container .card {
   position: relative;
   width: 500px;
-  height: 300px;
+  height: 200px;
   background-color: rgb(32, 116, 189);
   margin: 20px 20px;
   padding: 20px 0px;
   display: flex;
   flex-direction: column;
   transition: 0.3s ease-in-out;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15) ;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
 }
 
-.container .card:hover{
+.container .card:hover {
   height: 600px;
 }
 
-.container .card .imgBx{
+.container .card .imgBx {
   position: relative;
   width: 400px;
   height: 400px;
@@ -3554,16 +3544,14 @@ textarea {
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0, 5);
 }
 
-.container .card .imgBx img{
+.container .card .imgBx img {
   max-width: 100%;
   width: 400px;
   height: 300px;
-  border-radius: 4px; 
+  border-radius: 4px;
 }
 
-
-
-.container .card .content{
+.container .card .content {
   position: relative;
   margin-top: -150px;
   padding: 10px 15px;
@@ -3573,14 +3561,11 @@ textarea {
   opacity: 0;
   transition: 0.3s ease-in-out;
 }
-
-.container .card .content p{
-
-text-align: justify;
-
+.container .card .content p {
+  text-align: justify;
 }
 
-.container .card:hover .content{
+.container .card:hover .content {
   visibility: visible;
   opacity: 1;
   margin-top: -150px;
@@ -3747,6 +3732,7 @@ text-align: justify;
 
 
 /* Fim subheader */
+
 
 /* Início Específico - Tela RGI */
 
