@@ -3685,18 +3685,51 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  width: 1855px;
+  height: 788px;
 }
 
-.title-subheader {
-  padding: 25px;
-  margin-left: 50px;
+.img-main{
+  width: 1682px;
+  height: 459px;
+  background: no-repeat center/cover url("../../assets/images/banner-fundo-paginas.png");
+  border-radius: 20px;
+
+}
+.titulo-banner{
+
+  margin: 150px 0px 150px 360px;
+  font-size: 100px;
+
+}
+.titulo-banner-cartorio-online{
+
+  margin: 150px 0px 150px 480px;
+  font-size: 100px;
+
 }
 
-.img-subheader {
-  width: 30%;
-  height: auto;
+@media screen and (max-width: 480px) {
+  .container-subheader {
+    background-color: #16a4e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 330px;
+    height: 200px;
+  }
+  .img-main {
+    width: 280px;
+    height: 150px;
+    background: no-repeat center/cover url("../../assets/images/banner-fundo-paginas.png");
+    border-radius: 20px;
+  }
+  .titulo-banner{
+    margin: 50px 0px 50px 40px;
+    font-size: 22px;
+  }
 }
+
 
 /* Fim subheader */
 
