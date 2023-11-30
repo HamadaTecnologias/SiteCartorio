@@ -4350,7 +4350,7 @@ textarea {
     padding: 0;
     margin: 0;
   }
-  /* começa aqui */
+ 
   .container-certidao-rgi {
     display: flex;
     flex-direction: row;
@@ -4557,9 +4557,6 @@ textarea {
     padding: 5px;
   }
 }
-
-
-
 /* Fim - Responsividade Geral da Página de RGI */
 
 /* Página de Protestos */
@@ -4620,12 +4617,117 @@ textarea {
   padding: 20px;
   font-size: 1rem;
 }
-
 /* Fim da parte de apontamentos */
 
+  /* Começo do conteúdo sobre cancelamento e sustação */
+  .content-sustacao {
+    display: flex;
+    margin-top: 60px;
+    align-items: space-around;
+    justify-content: space-around;
+  }
 
+  .text-sustacao {
+    text-align: justify;
+    width: 500px;
+    color: black;
+    text-indent: 10px;
+    padding: 20px;
+    font-size: 1rem;
+  }
 
+  .title-sustacao {
+    color: black;
+    text-align: center;
+    margin-top: -5px;
+  }
+
+  .img-sustacao {
+    width: 500px;
+    height: 500px;
+    margin-top: 20px;
+    border: 5px solid #16a3e0b9;
+    border-radius: 20px;
+  }
+  /* Fim do conteúdo sobre cancelamento e sustação */
+
+  /* Começo da parte de certidão de protestos */
+  .container-protesto{
+    display: flex;
+    margin-top: 4rem;
+    flex-direction: row;
+    align-items: space-around;
+    justify-content: space-around;
+    background-color: #16a3e02c;
+    padding: 20px;
+    height: 750px;
+  }
+  
+  .protesto-concept {
+    width: 600px;
+    text-align: center;
+  }
+  
+  .protesto-pic {
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #16a3e0b9;
+    border-radius: 20px;
+  }
+  
+  .title-protesto {
+    font-family: "Roboto Slab", sans serif;
+    text-align: center;
+    padding: 30px;
+    font-size: 2rem;
+    color: black;
+  }
+  
+  .paragraph-protesto {
+    text-align: justify;
+    width: 500px;
+    color: black;
+    text-indent: 10px;
+    padding: 20px;
+    font-size: 1rem;
+  }
+  /* Fim da parte de certidão de protestos */
+
+  /* Começo da página de desistência pelo credor */
+  .content-desistencia {
+    display: flex;
+    margin-top: 60px;
+    align-items: space-around;
+    justify-content: space-around;
+  }
+
+  .text-desistencia {
+    text-align: justify;
+    width: 500px;
+    color: black;
+    text-indent: 10px;
+    padding: 20px;
+    font-size: 1rem;
+  }
+
+  .title-desistencia {
+    color: black;
+    text-align: center;
+    margin-top: -5px;
+  }
+
+  .img-desistencia {
+    width: 500px;
+    height: 330px;
+    margin-top: 20px;
+    border: 5px solid #16a3e0b9;
+    border-radius: 20px;
+  }
+  /* Fim da página de desistência pelo credor */
 /* Fim Página de Protestos */
+
 
 /* Início Responsividade Geral - Página de Protestos */
 @media screen and (max-width: 480px) {
@@ -4693,6 +4795,133 @@ textarea {
     margin: 0;
   }
   /* Fim da parte de apontamentos */
+
+  /* Começo da parte de cancelamento e sustação */
+  .content-sustacao {
+    display: flex;
+    margin-top: 3.75rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 20rem;
+  }
+
+  .text-sustacao {
+    text-align: justify;
+    width: 31rem;
+    color: black;
+    text-indent: 10px;
+    padding: 0.8rem;
+    font-size: 0.8rem;
+    padding: 5px;
+  }
+
+  .title-sustacao {
+    color: black;
+    text-align: center;
+    margin-top: -5px;
+    text-align: center;
+  }
+
+  .img-sustacao {
+    width: 19rem;
+    height: auto;
+    margin-top: 20px;
+    border: 5px solid #16a3e0b9;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+  /* Fim da parte de cancelamento e sustação */
+
+  /* Começo da parte de certidão de protesto */
+  .container-protesto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #16a3e02c;
+    height: 75rem;
+    width: 310px;
+    margin: 5px;
+    padding: 0;
+    margin-top: 4rem;
+  }
+
+  .protesto-concept {
+    width: 12.5rem;
+    align-self: center;
+    height: 6.25rem;
+    margin: 0;
+  }
+
+  .protesto-pic {
+    width: 12.5rem;
+    height: 12.5rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 5px solid #16a3e0b9;
+    border-radius: 20px;
+  }
+
+  .title-protesto {
+    font-family: "Roboto Slab", sans serif;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 30px;
+    margin-top: -50px;
+    padding: 0;
+  }
+
+  .paragraph-protesto {
+    text-align: justify;
+    width: 18.75rem;
+    color: black;
+    text-indent: 10px;
+    padding: 20px;
+    font-size: 0.8rem;
+    margin: 0;
+  }
+  /* Fim da parte de certidão de protesto */
+  /* Começo da página de desistência pelo credor */
+  .content-desistencia {
+    display: flex;
+    margin-top: 3.75rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 20rem;
+  }
+
+  .text-desistencia {
+    text-align: justify;
+    width: 31rem;
+    color: black;
+    text-indent: 10px;
+    padding: 0.8rem;
+    font-size: 0.8rem;
+    padding: 5px;
+  }
+
+  .title-desistencia {
+    color: black;
+    text-align: center;
+    margin-top: -5px;
+    text-align: center;
+  }
+
+  .img-desistencia {
+    width: 19rem;
+    height: auto;
+    margin-top: 20px;
+    border: 5px solid #16a3e0b9;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+  /* Fim da página de desistÊncia pelo credor */
 }
 
 @media screen and (min-width: 480px) and (max-width: 568px){
@@ -4762,6 +4991,141 @@ textarea {
   }
 
   /* Fim da parte de apontamentos  */
+
+  /* Começo da parte de cancelmento e sustacao */
+  .content-sustacao {
+    display: flex;
+    margin-top: 3.75rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30rem;
+  }
+
+  .text-sustacao {
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    width: 31rem;
+    color: black;
+    text-indent: 10px;
+    font-size: 0.8rem;
+    padding: 5px;
+    flex-wrap: wrap;
+  }
+
+  .title-sustacao {
+    color: black;
+    text-align: center;
+    margin-top: -5px;
+    text-align: center;
+  }
+
+  .img-sustacao {
+    width: 19rem;
+    height: auto;
+    margin-top: 20px;
+    border: 3px solid #16a3e0b9;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  /* fim da parte de cancelamento e sustacao */
+
+  /* Começo da parte de certidão de protestos */
+  .container-protesto {
+    display: flex;
+    flex-direction: row;
+    background-color: #16a3e02c;
+    height: 50rem;
+    width: 700px;
+    margin: 5px;
+    margin-top: 4rem;
+  }
+
+  .protesto-concept {
+    width: 500px;
+    align-self: center;
+    height: 500px;
+    margin: 0;
+  }
+
+  .protesto-pic {
+    width: 18rem;
+    height: 400px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 5px solid #16a3e0b9;
+    border-radius: 20px;
+  }
+
+  .title-protesto {
+    font-family: "Roboto Slab", sans serif;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 30px;
+    margin-top: -120px;
+    padding: 0;
+  }
+
+  .paragraph-protesto {
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    color: black;
+    text-indent: 10px;
+    font-size: 0.8rem;
+    flex-wrap: wrap;
+    width: 28rem;
+    padding: 5px;
+  }
+  /* Fim da parte de certidão de protestos */
+
+  /* Começo da parte de desistência pelo credor */
+  .content-desistencia {
+    display: flex;
+    margin-top: 3.75rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30rem;
+  }
+
+  .text-desistencia {
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    width: 31rem;
+    color: black;
+    text-indent: 10px;
+    font-size: 0.8rem;
+    padding: 5px;
+    flex-wrap: wrap;
+  }
+
+  .title-desistencia {
+    color: black;
+    text-align: center;
+    margin-top: -5px;
+    text-align: center;
+  }
+
+  .img-desistencia {
+    width: 19rem;
+    height: auto;
+    margin-top: 20px;
+    border: 3px solid #16a3e0b9;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  /* Fim da parte de desistência pelo credor */
 }
 
 @media screen and (min-width: 568px) and (max-width: 768px){
@@ -4830,6 +5194,141 @@ textarea {
     padding: 5px;
   }
   /* Fim da parte de apontamentos */
+
+  /* Começo da parte de sustação e cancelamento */
+  .content-sustacao {
+    display: flex;
+    margin-top: 3.75rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40rem;
+  }
+
+  .text-sustacao {
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    width: 34rem;
+    color: black;
+    text-indent: 10px;
+    font-size: 0.8rem;
+    padding: 10px;
+    flex-wrap: wrap;
+  }
+
+  .title-sustacao {
+    color: black;
+    text-align: center;
+    margin-top: -5px;
+    text-align: center;
+  }
+
+  .img-sustacao{
+    width: 22rem;
+    height: auto;
+    margin-top: 20px;
+    border: 3px solid #16a3e0b9;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  /* Fim da parte de sustação e cancelamento */
+
+  /* Começo da parte de certidão de protestos */
+  .container-protesto {
+    display: flex;
+    flex-direction: row;
+    background-color: #16a3e02c;
+    height: 50rem;
+    width: 700px;
+    margin: 5px;
+    margin-top: 4rem;
+  }
+
+  .protesto-concept {
+    width: 500px;
+    align-self: center;
+    height: 500px;
+    margin: 0;
+  }
+
+  .protesto-pic {
+    width: 18rem;
+    height: 400px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 5px solid #16a3e0b9;
+    border-radius: 20px;
+  }
+
+  .title-protesto {
+    font-family: "Roboto Slab", sans serif;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 30px;
+    margin-top: -120px;
+    padding: 0;
+  }
+
+  .paragraph-protesto {
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    color: black;
+    text-indent: 10px;
+    font-size: 0.8rem;
+    flex-wrap: wrap;
+    width: 28rem;
+    padding: 5px;
+  }
+  /* Fim da parte de certidão de protestos */
+
+  /* Começo da parte de desistência pelo credor */
+  .content-desistencia {
+    display: flex;
+    margin-top: 3.75rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40rem;
+  }
+
+  .text-desistencia {
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    width: 34rem;
+    color: black;
+    text-indent: 10px;
+    font-size: 0.8rem;
+    padding: 10px;
+    flex-wrap: wrap;
+  }
+
+  .title-desistencia {
+    color: black;
+    text-align: center;
+    margin-top: -5px;
+    text-align: center;
+  }
+
+  .img-desistencia {
+    width: 22rem;
+    height: auto;
+    margin-top: 20px;
+    border: 3px solid #16a3e0b9;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  /* Fim da página de desistência pelo credor */
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px){
@@ -4898,5 +5397,128 @@ textarea {
     padding: 5px;
   }
   /* fim apontamento */
+
+  /* Começo da parte de cancelamento e sustação*/
+  .content-sustacao {
+    display: flex;
+    margin-top: 3.75rem;
+    align-items: space-around;
+    justify-content: space-around;
+  }
+
+  .text-sustacao {
+    text-align: justify;
+    width: 34rem;
+    color: black;
+    text-indent: 10px;
+    font-size: 0.9rem;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+
+  .title-sustacao {
+    color: black;
+    text-align: center;
+    margin-top: -5px;
+    text-align: center;
+  }
+
+  .img-sustacao {
+    width: 25rem;
+    height: 35rem;
+    margin-top: 20px;
+    border: 3px solid #16a3e0b9;
+    border-radius: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  /* Fim da parte de cancelamento e sustação */
+
+  /* Começo da parte de certidão de protestos */
+  .container-protesto {
+    display: flex;
+    flex-direction: row;
+    background-color: #16a3e02c;
+    height: 50rem;
+    width: 1000px;
+    margin: 5px;
+    margin-top: 4rem;
+  }
+
+  .protesto-concept {
+    width: 500px;
+    align-self: center;
+    height: 500px;
+    margin: 0;
+  }
+
+  .protesto-pic {
+    width: 22rem;
+    height: 450px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 5px solid #16a3e0b9;
+    border-radius: 20px;
+  }
+
+  .title-protesto {
+    font-family: "Roboto Slab", sans serif;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 30px;
+    margin-top: -120px;
+    padding: 0;
+  }
+
+  .paragraph-protesto{
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    color: black;
+    text-indent: 10px;
+    font-size: 0.9rem;
+    flex-wrap: wrap;
+    width: 28rem;
+    padding: 5px;
+  }
+  /* Começo da parte de certidão de protestos */
+
+  /* Começo da página de desistência pelo credor */
+  .content-desistencia {
+    display: flex;
+    margin-top: 3.75rem;
+    align-items: space-around;
+    justify-content: space-around;
+  }
+
+  .text-desistencia {
+    text-align: justify;
+    width: 34rem;
+    color: black;
+    text-indent: 10px;
+    font-size: 0.9rem;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+
+  .title-desistencia {
+    color: black;
+    text-align: center;
+    margin-top: -5px;
+    text-align: center;
+  }
+
+  .img-desistencia {
+    width: 25rem;
+    height: 18rem;
+    margin-top: 20px;
+    border: 3px solid #16a3e0b9;
+    border-radius: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  /* Fim da página de desistência pelo credor */
 }
 /* Fim Responsividade Geral - Página de Protestos  */
