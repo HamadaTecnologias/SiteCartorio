@@ -3689,24 +3689,20 @@ textarea {
   height: 788px;
 }
 
-.img-main{
+.img-main {
   width: 1682px;
   height: 459px;
-  background: no-repeat center/cover url("../../assets/images/banner-fundo-paginas.png");
+  background: no-repeat center/cover
+    url("../../assets/images/banner-fundo-paginas.png");
   border-radius: 20px;
-
 }
-.titulo-banner{
-
+.titulo-banner {
   margin: 150px 0px 150px 360px;
   font-size: 100px;
-
 }
-.titulo-banner-cartorio-online{
-
+.titulo-banner-cartorio-online {
   margin: 150px 0px 150px 480px;
   font-size: 100px;
-
 }
 
 @media screen and (max-width: 480px) {
@@ -3721,15 +3717,15 @@ textarea {
   .img-main {
     width: 280px;
     height: 150px;
-    background: no-repeat center/cover url("../../assets/images/banner-fundo-paginas.png");
+    background: no-repeat center/cover
+      url("../../assets/images/banner-fundo-paginas.png");
     border-radius: 20px;
   }
-  .titulo-banner{
+  .titulo-banner {
     margin: 50px 0px 50px 40px;
     font-size: 22px;
   }
 }
-
 
 /* Fim subheader */
 
@@ -3898,9 +3894,7 @@ textarea {
 }
 /* Fim do Conteúdo de Certidão RGI */
 
-
-/* Início Responsividade Geral da Página */
-
+/* Início Responsividade Geral da Página de RGI */
 
 @media screen and (max-width: 480px) {
   .content-container {
@@ -3988,7 +3982,7 @@ textarea {
     flex-direction: column;
     width: 20rem;
   }
-  
+
   .text-averbacao {
     text-align: justify;
     width: 31rem;
@@ -3998,14 +3992,14 @@ textarea {
     font-size: 1rem;
     padding: 5px;
   }
-  
+
   .title-averbacao {
     color: black;
     text-align: center;
     margin-top: -5px;
     text-align: center;
   }
-  
+
   .img-averbacao {
     width: 19rem;
     height: auto;
@@ -4065,7 +4059,6 @@ textarea {
     margin: 0;
   }
 }
-
 
 @media screen and (min-width: 480px) and (max-width: 568px) {
   .content-container {
@@ -4156,7 +4149,7 @@ textarea {
     flex-direction: column;
     width: 30rem;
   }
-  
+
   .text-averbacao {
     text-align: justify;
     justify-content: center;
@@ -4168,14 +4161,14 @@ textarea {
     padding: 5px;
     flex-wrap: wrap;
   }
-  
+
   .title-averbacao {
     color: black;
     text-align: center;
     margin-top: -5px;
     text-align: center;
   }
-  
+
   .img-averbacao {
     width: 19rem;
     height: auto;
@@ -4187,7 +4180,7 @@ textarea {
     padding: 0;
     margin: 0;
   }
- 
+
   .container-certidao-rgi {
     display: flex;
     flex-direction: row;
@@ -4224,7 +4217,7 @@ textarea {
     padding: 0;
   }
 
-  .paragraph-certidao{
+  .paragraph-certidao {
     text-align: justify;
     justify-content: center;
     align-items: center;
@@ -4237,7 +4230,6 @@ textarea {
     padding: 5px;
   }
 }
-
 
 @media screen and (min-width: 568px) and (max-width: 768px) {
   .content-container {
@@ -4327,7 +4319,7 @@ textarea {
     flex-direction: column;
     width: 40rem;
   }
-  
+
   .text-averbacao {
     text-align: justify;
     justify-content: center;
@@ -4339,14 +4331,14 @@ textarea {
     padding: 10px;
     flex-wrap: wrap;
   }
-  
+
   .title-averbacao {
     color: black;
     text-align: center;
     margin-top: -5px;
     text-align: center;
   }
-  
+
   .img-averbacao {
     width: 22rem;
     height: auto;
@@ -4488,7 +4480,7 @@ textarea {
     align-items: space-around;
     justify-content: space-around;
   }
-  
+
   .text-averbacao {
     text-align: justify;
     width: 34rem;
@@ -4498,14 +4490,14 @@ textarea {
     padding: 20px;
     flex-wrap: wrap;
   }
-  
+
   .title-averbacao {
     color: black;
     text-align: center;
     margin-top: -5px;
     text-align: center;
   }
-  
+
   .img-averbacao {
     width: 25rem;
     height: 35rem;
@@ -4515,7 +4507,7 @@ textarea {
     padding: 0;
     margin: 0;
   }
-  
+
   .container-certidao-rgi {
     display: flex;
     flex-direction: row;
@@ -4566,4 +4558,345 @@ textarea {
   }
 }
 
-/* Fim - Responsividade Geral da Página */
+
+
+/* Fim - Responsividade Geral da Página de RGI */
+
+/* Página de Protestos */
+.container-intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-top: 30px;
+}
+
+.intro {
+  text-align: justify;
+  font-size: 1.3rem;
+  max-width: 1000px;
+  width: 100%;
+}
+
+/* Começo da parte de apontamentos */
+.container-apontamento {
+  display: flex;
+  margin-top: 4rem;
+  flex-direction: row;
+  align-items: space-around;
+  justify-content: space-around;
+  background-color: #16a3e02c;
+  padding: 20px;
+  height: 750px;
+}
+
+.apontamento-concept {
+  width: 600px;
+  text-align: center;
+}
+
+.rgi-apontamento-pic {
+  width: 500px;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #16a3e0b9;
+  border-radius: 20px;
+}
+
+.title-apontamento {
+  font-family: "Roboto Slab", sans serif;
+  text-align: center;
+  padding: 30px;
+  font-size: 2rem;
+  color: black;
+}
+
+.paragraph-apontamento {
+  text-align: justify;
+  width: 500px;
+  color: black;
+  text-indent: 10px;
+  padding: 20px;
+  font-size: 1rem;
+}
+
+/* Fim da parte de apontamentos */
+
+
+
+/* Fim Página de Protestos */
+
+/* Início Responsividade Geral - Página de Protestos */
+@media screen and (max-width: 480px) {
+  .container-intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-top: 30px;
+  }
+
+  .intro {
+    text-align: justify;
+    font-size: 0.9rem;
+    max-width: 1000px;
+    width: 100%;
+    padding: 20px;
+  }
+  /* Começo da parte de apontamentos */
+  .container-apontamento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #16a3e02c;
+    height: 75rem;
+    width: 310px;
+    margin: 5px;
+    padding: 0;
+    margin-top: 4rem;
+  }
+
+  .apontamento-concept {
+    width: 12.5rem;
+    align-self: center;
+    height: 6.25rem;
+    margin: 0;
+  }
+
+  .rgi-apontamento-pic {
+    width: 12.5rem;
+    height: 12.5rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 5px solid #16a3e0b9;
+    border-radius: 20px;
+  }
+
+  .title-apontamento {
+    font-family: "Roboto Slab", sans serif;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 30px;
+    margin-top: -50px;
+    padding: 0;
+  }
+
+  .paragraph-apontamento {
+    text-align: justify;
+    width: 18.75rem;
+    color: black;
+    text-indent: 10px;
+    padding: 20px;
+    font-size: 0.8rem;
+    margin: 0;
+  }
+  /* Fim da parte de apontamentos */
+}
+
+@media screen and (min-width: 480px) and (max-width: 568px){
+  .container-intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-top: 30px;
+    padding: 20px;
+  }
+  
+  .intro {
+    text-align: justify;
+    font-size: 1rem;
+    max-width: 1000px;
+    width: 100%;
+}
+  /* Começo da parte de apontamentos */
+  .container-apontamento {
+    display: flex;
+    flex-direction: row;
+    background-color: #16a3e02c;
+    height: 50rem;
+    width: 700px;
+    margin: 5px;
+    margin-top: 4rem;
+  }
+
+  .apontamento-concept {
+    width: 500px;
+    align-self: center;
+    height: 500px;
+    margin: 0;
+  }
+
+  .rgi-apontamento-pic {
+    width: 18rem;
+    height: 400px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 5px solid #16a3e0b9;
+    border-radius: 20px;
+  }
+
+  .title-apontamento {
+    font-family: "Roboto Slab", sans serif;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 30px;
+    margin-top: -120px;
+    padding: 0;
+  }
+
+  .paragraph-apontamento {
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    color: black;
+    text-indent: 10px;
+    font-size: 0.8rem;
+    flex-wrap: wrap;
+    width: 28rem;
+    padding: 5px;
+  }
+
+  /* Fim da parte de apontamentos  */
+}
+
+@media screen and (min-width: 568px) and (max-width: 768px){
+  .container-intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-top: 30px;
+    padding: 20px;
+  }
+  
+  .intro {
+    text-align: justify;
+    font-size: 1.2rem;
+    max-width: 1000px;
+    width: 100%;
+  }
+  /* Começo da parte de apontamentos */
+  .container-apontamento {
+    display: flex;
+    flex-direction: row;
+    background-color: #16a3e02c;
+    height: 50rem;
+    width: 700px;
+    margin: 5px;
+    margin-top: 4rem;
+  }
+
+  .apontamento-concept {
+    width: 500px;
+    align-self: center;
+    height: 500px;
+    margin: 0;
+  }
+
+  .rgi-apontamento-pic {
+    width: 18rem;
+    height: 400px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 5px solid #16a3e0b9;
+    border-radius: 20px;
+  }
+
+  .title-apontamento {
+    font-family: "Roboto Slab", sans serif;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 30px;
+    margin-top: -120px;
+    padding: 0;
+  }
+
+  .paragraph-apontamento {
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    color: black;
+    text-indent: 10px;
+    font-size: 0.8rem;
+    flex-wrap: wrap;
+    width: 28rem;
+    padding: 5px;
+  }
+  /* Fim da parte de apontamentos */
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  .container-intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-top: 30px;
+    padding: 20px;
+  }
+  
+  .intro {
+    text-align: justify;
+    font-size: 1.2rem;
+    max-width: 1000px;
+    width: 100%;
+}
+  /* começo apontamento */
+  .container-apontamento {
+    display: flex;
+    flex-direction: row;
+    background-color: #16a3e02c;
+    height: 50rem;
+    width: 1000px;
+    margin: 5px;
+    margin-top: 4rem;
+  }
+
+  .apontamento-concept {
+    width: 500px;
+    align-self: center;
+    height: 500px;
+    margin: 0;
+  }
+
+  .rgi-apontamento-pic {
+    width: 22rem;
+    height: 450px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 5px solid #16a3e0b9;
+    border-radius: 20px;
+  }
+
+  .title-apontamento {
+    font-family: "Roboto Slab", sans serif;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 30px;
+    margin-top: -120px;
+    padding: 0;
+  }
+
+  .paragraph-apontamento{
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    color: black;
+    text-indent: 10px;
+    font-size: 0.9rem;
+    flex-wrap: wrap;
+    width: 28rem;
+    padding: 5px;
+  }
+  /* fim apontamento */
+}
+/* Fim Responsividade Geral - Página de Protestos  */
