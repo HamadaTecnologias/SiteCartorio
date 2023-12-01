@@ -5522,3 +5522,95 @@ textarea {
   /* Fim da página de desistência pelo credor */
 }
 /* Fim Responsividade Geral - Página de Protestos  */
+
+/* Inicio Cartorio Online */
+.titulo-banner-cartorio-online{
+
+  margin: 150px 0px 150px 480px;
+  font-size: 100px;
+
+}
+
+.content-section{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 40px;
+
+}
+
+.coluna-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 500px;
+  width: 400px;
+  background-color: #16a3e0b9;
+  margin: 2px;
+  border-radius: 20px;
+  padding: 10px;
+
+}
+
+.coluna-parag{
+  text-align: justify;
+  color: #205872;
+  padding: 10px;
+}
+
+.img-coluna{
+  width: 300px;
+  height: 150px;
+  border-radius: 20px;
+  margin: 40px;
+}
+
+
+/* Fim Cartorio Online */
+
+
+/* Inicio Consulta Firma */
+.container-consulta-firma {
+  background-color: #16a4e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1855px;
+  height: 788px;
+}
+
+.img-consulta-firma{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1682px;
+  height: 459px;
+  background: no-repeat center/cover url("../../assets/images/banner-fundo-paginas.png");
+  border-radius: 20px;
+
+}
+.titulo-banner-consulta-firma{
+
+  margin: 50px 0px 0px 0px;
+  font-size: 100px;
+
+}
+
+.form-consulta-firma{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+
+}
+
+.input-consulta-firma{
+
+  text-align: center;
+
+}
+
+/* Fim Consulta  Firma */
