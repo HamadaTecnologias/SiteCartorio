@@ -1,22 +1,4 @@
-<div>
-    <?php
-                session_start();
-                if(isset($_GET['firma_ok'])){
-                  echo "<script>alert('não houve conexão com o banco');</script>";
-                  // echo '<script language="javascript">';
-                  // echo 'alert("message successfully sent")';
-                  // echo '</script>';
-                  echo "<h3 style=color:black;>Firma encontrada:</h3>";
-                  echo "<h3 style=color:black;>Nome: ".$_SESSION['Nome']." | CPF:" .$_SESSION['Cpf']."</h3>";
-                  
-            
-                }elseif(isset($_GET['firma_error'])){
-                  echo "<h3 style=color:black;>Firma Não encontrada:</h3>";
-                }else{
-                    echo '';
-                }
-            ?>
-    </div>
+
     
     <!DOCTYPE html>
     <html lang="en">
@@ -56,11 +38,25 @@
           </div>
         </div>
     
-        <div class="container-subheader">
-          <div class="img-consulta-firma">
+        <div class="container-consultas">
+          <div class="pop-box">
+            <?php
+                session_start();
+                if(isset($_GET['firma_ok'])){
+                  echo "<h3 style=color:black;>FIRMA ENCONTRADA:</h3>";
+                  echo "<h3 style=color:black;>Nome: ".$_SESSION['Nome']." | CPF:" .$_SESSION['Cpf']."</h3>";
+            
+                }elseif(isset($_GET['firma_error'])){
+                  echo "<h3 style=color:black;>FIRMA NÃO ENCONTRADA!</h3>";
+                }else{
+                    echo '';
+                }
+            ?>
+          </div> 
+          <div class="img-consultas">
                 <h1 class="titulo-banner-consulta-firma">Consulte Sua Firma:</h1>
-                <form class="form-consulta-firma" action="consultar-firma.php" method="post">
-                    <input class="input-consulta-firma" placeholder="Digite Seu CPF - Apenas Números" type="text" name="Cpf">
+                <form class="form-consultas" action="consultar-firma.php" method="post">
+                    <input class="input-consultas" placeholder="Digite Seu CPF - Apenas Números" type="text" name="Cpf">
                     <br>
                     <input type="submit" value="Buscar">
                 </form>

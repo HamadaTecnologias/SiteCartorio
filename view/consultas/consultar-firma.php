@@ -14,6 +14,7 @@
         header('location:consulta_firma.php?firma_ok=true');
         exit;
 
+    
     }else{
         header('location:consulta_firma.php?firma_error=true');
         exit;

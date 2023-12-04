@@ -5571,16 +5571,28 @@ textarea {
 
 
 /* Inicio Consulta Firma */
-.container-consulta-firma {
+.container-consultas {
   background-color: #16a4e0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 1855px;
   height: 788px;
 }
+.pop-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  border-radius: 20px;
+  margin: -50px 0px 20px 0px;
+  padding: 10px;
+ 
 
-.img-consulta-firma{
+}
+.img-consultas{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -5598,7 +5610,7 @@ textarea {
 
 }
 
-.form-consulta-firma{
+.form-consultas{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -5607,10 +5619,47 @@ textarea {
 
 }
 
-.input-consulta-firma{
+.input-consultas{
 
   text-align: center;
 
 }
 
+
 /* Fim Consulta  Firma */
+
+
+
+/* Inicio Consulta REgistro */
+
+
+
+.titulo-banner-consulta-registro{
+
+  margin: 50px 0px 0px 0px;
+  font-size: 100px;
+
+}
+
+
+
+/* Fim consulta registro */
+
+
+
+
+/* Inicio Consulta Protesto  */
+
+
+
+.titulo-banner-consulta-protesto{
+
+  margin: 50px 0px 0px 0px;
+  font-size: 100px;
+
+}
+
+
+
+
+/* Fim Consulta Protesto  */
