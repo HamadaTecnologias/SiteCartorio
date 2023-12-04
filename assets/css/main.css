@@ -4351,7 +4351,7 @@ textarea {
     padding: 0;
     margin: 0;
   }
- 
+
   .container-certidao-rgi {
     display: flex;
     flex-direction: row;
@@ -4581,7 +4581,6 @@ textarea {
   font-size: 100px;
 }
 
-
 /* Começo da parte de apontamentos */
 .container-apontamento {
   display: flex;
@@ -4626,119 +4625,118 @@ textarea {
 }
 /* Fim da parte de apontamentos */
 
-  /* Começo do conteúdo sobre cancelamento e sustação */
-  .content-sustacao {
-    display: flex;
-    margin-top: 60px;
-    align-items: space-around;
-    justify-content: space-around;
-  }
+/* Começo do conteúdo sobre cancelamento e sustação */
+.content-sustacao {
+  display: flex;
+  margin-top: 60px;
+  align-items: space-around;
+  justify-content: space-around;
+}
 
-  .text-sustacao {
-    text-align: justify;
-    width: 500px;
-    color: black;
-    text-indent: 10px;
-    padding: 20px;
-    font-size: 1rem;
-  }
+.text-sustacao {
+  text-align: justify;
+  width: 500px;
+  color: black;
+  text-indent: 10px;
+  padding: 20px;
+  font-size: 1rem;
+}
 
-  .title-sustacao {
-    color: black;
-    text-align: center;
-    margin-top: -5px;
-  }
+.title-sustacao {
+  color: black;
+  text-align: center;
+  margin-top: -5px;
+}
 
-  .img-sustacao {
-    width: 500px;
-    height: 500px;
-    margin-top: 20px;
-    border: 5px solid #16a3e0b9;
-    border-radius: 20px;
-  }
-  /* Fim do conteúdo sobre cancelamento e sustação */
+.img-sustacao {
+  width: 500px;
+  height: 500px;
+  margin-top: 20px;
+  border: 5px solid #16a3e0b9;
+  border-radius: 20px;
+}
+/* Fim do conteúdo sobre cancelamento e sustação */
 
-  /* Começo da parte de certidão de protestos */
-  .container-protesto{
-    display: flex;
-    margin-top: 4rem;
-    flex-direction: row;
-    align-items: space-around;
-    justify-content: space-around;
-    background-color: #16a3e02c;
-    padding: 20px;
-    height: 750px;
-  }
-  
-  .protesto-concept {
-    width: 600px;
-    text-align: center;
-  }
-  
-  .protesto-pic {
-    width: 500px;
-    height: 500px;
-    justify-content: center;
-    align-items: center;
-    border: 5px solid #16a3e0b9;
-    border-radius: 20px;
-  }
-  
-  .title-protesto {
-    font-family: "Roboto Slab", sans serif;
-    text-align: center;
-    padding: 30px;
-    font-size: 2rem;
-    color: black;
-  }
-  
-  .paragraph-protesto {
-    text-align: justify;
-    width: 500px;
-    color: black;
-    text-indent: 10px;
-    padding: 20px;
-    font-size: 1rem;
-  }
-  /* Fim da parte de certidão de protestos */
+/* Começo da parte de certidão de protestos */
+.container-protesto {
+  display: flex;
+  margin-top: 4rem;
+  flex-direction: row;
+  align-items: space-around;
+  justify-content: space-around;
+  background-color: #16a3e02c;
+  padding: 20px;
+  height: 750px;
+}
 
-  /* Começo da página de desistência pelo credor */
-  .content-desistencia {
-    display: flex;
-    margin-top: 60px;
-    align-items: space-around;
-    justify-content: space-around;
-  }
+.protesto-concept {
+  width: 600px;
+  text-align: center;
+}
 
-  .text-desistencia {
-    text-align: justify;
-    width: 500px;
-    color: black;
-    text-indent: 10px;
-    padding: 20px;
-    font-size: 1rem;
-  }
+.protesto-pic {
+  width: 500px;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #16a3e0b9;
+  border-radius: 20px;
+}
 
-  .title-desistencia {
-    color: black;
-    text-align: center;
-    margin-top: -5px;
-  }
+.title-protesto {
+  font-family: "Roboto Slab", sans serif;
+  text-align: center;
+  padding: 30px;
+  font-size: 2rem;
+  color: black;
+}
 
-  .img-desistencia {
-    width: 500px;
-    height: 330px;
-    margin-top: 20px;
-    border: 5px solid #16a3e0b9;
-    border-radius: 20px;
-  }
-  /* Fim da página de desistência pelo credor */
+.paragraph-protesto {
+  text-align: justify;
+  width: 500px;
+  color: black;
+  text-indent: 10px;
+  padding: 20px;
+  font-size: 1rem;
+}
+/* Fim da parte de certidão de protestos */
+
+/* Começo da página de desistência pelo credor */
+.content-desistencia {
+  display: flex;
+  margin-top: 60px;
+  align-items: space-around;
+  justify-content: space-around;
+}
+
+.text-desistencia {
+  text-align: justify;
+  width: 500px;
+  color: black;
+  text-indent: 10px;
+  padding: 20px;
+  font-size: 1rem;
+}
+
+.title-desistencia {
+  color: black;
+  text-align: center;
+  margin-top: -5px;
+}
+
+.img-desistencia {
+  width: 500px;
+  height: 330px;
+  margin-top: 20px;
+  border: 5px solid #16a3e0b9;
+  border-radius: 20px;
+}
+/* Fim da página de desistência pelo credor */
 /* Fim Página de Protestos */
-
 
 /* Início Responsividade Geral - Página de Protestos */
 @media screen and (max-width: 480px) {
-  .titulo-banner-protesto{
+  .titulo-banner-protesto {
     margin: 10px 0px 10px 20px;
     font-size: 20px;
   }
@@ -4935,8 +4933,8 @@ textarea {
   /* Fim da página de desistÊncia pelo credor */
 }
 
-@media screen and (min-width: 480px) and (max-width: 568px){
-  .titulo-banner-protesto{
+@media screen and (min-width: 480px) and (max-width: 568px) {
+  .titulo-banner-protesto {
     margin: 10px 0px 10px 30px;
     font-size: 40px;
   }
@@ -4948,13 +4946,13 @@ textarea {
     margin-top: 30px;
     padding: 20px;
   }
-  
+
   .intro {
     text-align: justify;
     font-size: 1rem;
     max-width: 1000px;
     width: 100%;
-}
+  }
   /* Começo da parte de apontamentos */
   .container-apontamento {
     display: flex;
@@ -5143,8 +5141,8 @@ textarea {
   /* Fim da parte de desistência pelo credor */
 }
 
-@media screen and (min-width: 568px) and (max-width: 768px){
-  .titulo-banner-protesto{
+@media screen and (min-width: 568px) and (max-width: 768px) {
+  .titulo-banner-protesto {
     margin: 30px 0px 30px 60px;
     font-size: 50px;
   }
@@ -5156,7 +5154,7 @@ textarea {
     margin-top: 30px;
     padding: 20px;
   }
-  
+
   .intro {
     text-align: justify;
     font-size: 1.2rem;
@@ -5243,7 +5241,7 @@ textarea {
     text-align: center;
   }
 
-  .img-sustacao{
+  .img-sustacao {
     width: 22rem;
     height: auto;
     margin-top: 20px;
@@ -5350,8 +5348,8 @@ textarea {
   /* Fim da página de desistência pelo credor */
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px){
-  .titulo-banner-protesto{
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .titulo-banner-protesto {
     margin: 30px 0px 30px 80px;
     font-size: 50px;
   }
@@ -5363,13 +5361,13 @@ textarea {
     margin-top: 30px;
     padding: 20px;
   }
-  
+
   .intro {
     text-align: justify;
     font-size: 1.2rem;
     max-width: 1000px;
     width: 100%;
-}
+  }
   /* começo apontamento */
   .container-apontamento {
     display: flex;
@@ -5407,7 +5405,7 @@ textarea {
     padding: 0;
   }
 
-  .paragraph-apontamento{
+  .paragraph-apontamento {
     text-align: justify;
     justify-content: center;
     align-items: center;
@@ -5494,7 +5492,7 @@ textarea {
     padding: 0;
   }
 
-  .paragraph-protesto{
+  .paragraph-protesto {
     text-align: justify;
     justify-content: center;
     align-items: center;
@@ -5547,22 +5545,19 @@ textarea {
 /* Fim Responsividade Geral - Página de Protestos  */
 
 /* Inicio Cartorio Online */
-.titulo-banner-cartorio-online{
-
+.titulo-banner-cartorio-online {
   margin: 150px 0px 150px 480px;
   font-size: 100px;
-
 }
 
-.content-section{
+.content-section {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
   padding: 40px;
-
 }
 
-.coluna-section{
+.coluna-section {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -5573,25 +5568,22 @@ textarea {
   margin: 2px;
   border-radius: 20px;
   padding: 10px;
-
 }
 
-.coluna-parag{
+.coluna-parag {
   text-align: justify;
   color: #205872;
   padding: 10px;
 }
 
-.img-coluna{
+.img-coluna {
   width: 300px;
   height: 150px;
   border-radius: 20px;
   margin: 40px;
 }
 
-
 /* Fim Cartorio Online */
-
 
 /* Inicio Consulta Firma */
 .container-consultas {
@@ -5603,7 +5595,7 @@ textarea {
   width: 1855px;
   height: 788px;
 }
-.pop-box{
+.pop-box {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -5612,77 +5604,383 @@ textarea {
   border-radius: 20px;
   margin: -50px 0px 20px 0px;
   padding: 10px;
- 
-
 }
-.img-consultas{
+.img-consultas {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 1682px;
   height: 459px;
-  background: no-repeat center/cover url("../../assets/images/banner-fundo-paginas.png");
+  background: no-repeat center/cover
+    url("../../assets/images/banner-fundo-paginas.png");
   border-radius: 20px;
-
 }
-.titulo-banner-consulta-firma{
-
+.titulo-banner-consulta-firma {
   margin: 50px 0px 0px 0px;
   font-size: 100px;
-
 }
 
-.form-consultas{
+.form-consultas {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 1000px;
-
 }
 
-.input-consultas{
-
+.input-consultas {
   text-align: center;
-
 }
-
 
 /* Fim Consulta  Firma */
 
-
-
 /* Inicio Consulta REgistro */
 
-
-
-.titulo-banner-consulta-registro{
-
+.titulo-banner-consulta-registro {
   margin: 50px 0px 0px 0px;
   font-size: 100px;
-
 }
-
-
 
 /* Fim consulta registro */
 
-
-
-
 /* Inicio Consulta Protesto  */
 
-
-
-.titulo-banner-consulta-protesto{
-
+.titulo-banner-consulta-protesto {
   margin: 50px 0px 0px 0px;
   font-size: 100px;
-
 }
 
-
-
-
 /* Fim Consulta Protesto  */
+
+/* Começo - Notas - Código Geral */
+.container-intro-notas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-top: 30px;
+}
+
+.intro-notas {
+  text-align: justify;
+  font-size: 1.3rem;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.container-escritura-publica {
+  display: flex;
+  margin-top: 4rem;
+  flex-direction: row;
+  align-items: space-around;
+  justify-content: space-around;
+  background-color: #16a3e02c;
+  padding: 20px;
+  height: 750px;
+}
+
+.concept-escritura-publica {
+  width: 600px;
+  text-align: center;
+}
+
+.escritura-publica-pic {
+  width: 400px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #16a3e0b9;
+  border-radius: 20px;
+}
+
+.title-escritura-publica {
+  font-family: "Roboto Slab", sans serif;
+  text-align: center;
+  padding: 30px;
+  font-size: 2rem;
+  color: black;
+}
+
+.paragraph-escritura-publica {
+  text-align: justify;
+  width: 500px;
+  color: black;
+  text-indent: 10px;
+  padding: 20px;
+  font-size: 1rem;
+}
+/* Fim - Notas - Código Geral */
+
+/* Começo da Responsividade Geral - Página de Notas */
+@media screen and (max-width: 480px) {
+  .container-intro-notas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-top: 30px;
+  }
+
+  .intro-notas {
+    text-align: justify;
+    font-size: 0.9rem;
+    max-width: 1000px;
+    width: 100%;
+    padding: 20px;
+  }
+  /* Começo da parte de escritura pública */
+  .container-escritura-publica {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #16a3e02c;
+    height: 75rem;
+    width: 310px;
+    margin: 5px;
+    padding: 0;
+    margin-top: 4rem;
+  }
+
+  .concept-escritura-publica {
+    width: 12.5rem;
+    align-self: center;
+    height: 6.25rem;
+    margin: 0;
+  }
+
+  .escritura-publica-pic {
+    width: 12.5rem;
+    height: 12.5rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 5px solid #16a3e0b9;
+    border-radius: 20px;
+  }
+
+  .title-escritura-publica {
+    font-family: "Roboto Slab", sans serif;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 30px;
+    margin-top: -50px;
+    padding: 0;
+  }
+
+  .paragraph-escritura-publica {
+    text-align: justify;
+    width: 18.75rem;
+    color: black;
+    text-indent: 10px;
+    padding: 20px;
+    font-size: 0.8rem;
+    margin: 0;
+  }
+  /* Fim da parte de escritura pública */
+}
+
+@media screen and (min-width: 480px) and (max-width: 568px) {
+  .container-intro-notas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-top: 30px;
+    padding: 20px;
+  }
+
+  .intro-notas {
+    text-align: justify;
+    font-size: 1rem;
+    max-width: 1000px;
+    width: 100%;
+  }
+  /* Começo da parte de escritura pública de compra e venda */
+  .container-escritura-publica {
+    display: flex;
+    flex-direction: row;
+    background-color: #16a3e02c;
+    height: 50rem;
+    width: 700px;
+    margin: 5px;
+    margin-top: 4rem;
+  }
+
+  .concept-escritura-publica {
+    width: 500px;
+    align-self: center;
+    height: 500px;
+    margin: 0;
+  }
+
+  .escritura-publica-pic {
+    width: 18rem;
+    height: 400px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 5px solid #16a3e0b9;
+    border-radius: 20px;
+  }
+
+  .title-escritura-publica {
+    font-family: "Roboto Slab", sans serif;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 30px;
+    margin-top: -120px;
+    padding: 0;
+  }
+
+  .paragraph-escritura-publica {
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    color: black;
+    text-indent: 10px;
+    font-size: 0.8rem;
+    flex-wrap: wrap;
+    width: 28rem;
+    padding: 5px;
+  }
+  /* Fim da parte de escritura pública de compra e venda */
+}
+
+@media screen and (min-width: 568px) and (max-width: 768px) {
+  .container-intro-notas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-top: 30px;
+    padding: 20px;
+  }
+
+  .intro-notas {
+    text-align: justify;
+    font-size: 1.2rem;
+    max-width: 1000px;
+    width: 100%;
+  }
+  /* Começo parte de escritura de compra e venda */
+  .container-escritura-publica {
+    display: flex;
+    flex-direction: row;
+    background-color: #16a3e02c;
+    height: 50rem;
+    width: 700px;
+    margin: 5px;
+    margin-top: 4rem;
+  }
+
+  .concept-escritura-publica {
+    width: 500px;
+    align-self: center;
+    height: 500px;
+    margin: 0;
+  }
+
+  .escritura-publica-pic {
+    width: 18rem;
+    height: 400px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 5px solid #16a3e0b9;
+    border-radius: 20px;
+  }
+
+  .title-escritura-publica {
+    font-family: "Roboto Slab", sans serif;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 30px;
+    margin-top: -120px;
+    padding: 0;
+  }
+
+  .paragraph-escritura-publica {
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    color: black;
+    text-indent: 10px;
+    font-size: 0.8rem;
+    flex-wrap: wrap;
+    width: 28rem;
+    padding: 5px;
+  }
+  /* Fim da parte de escritura de compra e venda */
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .container-intro-notas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-top: 30px;
+    padding: 20px;
+  }
+
+  .intro-notas {
+    text-align: justify;
+    font-size: 1.2rem;
+    max-width: 1000px;
+    width: 100%;
+  }
+  /* Começo da parte de escritura pública de compra e venda */
+  .container-escritura-publica {
+    display: flex;
+    flex-direction: row;
+    background-color: #16a3e02c;
+    height: 50rem;
+    width: 1000px;
+    margin: 5px;
+    margin-top: 4rem;
+  }
+
+  .concept-escritura-publica {
+    width: 500px;
+    align-self: center;
+    height: 500px;
+    margin: 0;
+  }
+
+  .escritura-publica-pic {
+    width: 22rem;
+    height: 450px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 5px solid #16a3e0b9;
+    border-radius: 20px;
+  }
+
+  .title-escritura-publica {
+    font-family: "Roboto Slab", sans serif;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 30px;
+    margin-top: -120px;
+    padding: 0;
+  }
+
+  .paragraph-escritura-publica {
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    color: black;
+    text-indent: 10px;
+    font-size: 0.9rem;
+    flex-wrap: wrap;
+    width: 28rem;
+    padding: 5px;
+  }
+  /* Fim da parte de escritura pública de compra e venda */
+}
+/* Fim da Responsividade Geral - Página de Notas */
