@@ -182,7 +182,7 @@ body {
 
 .inicial {
   height: calc(100vh + 150px);
-  background: no-repeat center/cover url("../css/css-assets/header.png");
+  background: no-repeat center/cover url("../css/css-assets/1.png");
 }
 body.is-preload *,
 body.is-preload *:before,
@@ -2777,12 +2777,17 @@ button:disabled,
   -ms-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   /* background-color: #242e33fd; */
-  background-color: #3a7791;
+  background-color: #205872;
   font-size: 0.9em;
   position: relative;
   width: 26em;
 }
+.img-menu{
 
+  height: 100px;
+  width: 350px;
+
+}
 /* 
 #sidebar h2 {
   font-size: 1.38889em;
@@ -5984,3 +5989,111 @@ textarea {
   /* Fim da parte de escritura pública de compra e venda */
 }
 /* Fim da Responsividade Geral - Página de Notas */
+
+
+
+
+/* Inicio section Fale conosco  */
+.fale-conosco{
+
+  background-color: #16A4E0;
+  border-radius: 20px;
+
+  
+}
+
+
+
+.info-fale-conosco{
+
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+border-radius: 20px;
+padding: 20px;
+
+
+}
+
+.img-fale-conosco{
+
+width: 600px;
+height: 500px;
+
+}
+
+
+.coluna-fale-conosco{
+
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+background-color: rgba(32, 88, 114, 0.178);
+border-radius: 20px;
+width: 600px;
+height: 500px;
+box-shadow: 1px 1px 2px rgb(245, 245, 245), 0 0 15px #f9fcfd, 0 0 5px #205872;
+
+
+
+}
+.coluna-contatos{
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 550px;
+
+
+
+
+}
+.email-fale-conosco{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+
+.telefone-fale-conosco{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.horario-fale-conosco{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+
+.localizacao-fale-conosco{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+
+
+}
+
+
+.mapa-fale-conosco{
+
+
+
+}
+/* Fim section Fale Conosco */
