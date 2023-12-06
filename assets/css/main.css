@@ -3691,20 +3691,21 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1855px;
-  height: 788px;
+  width: 1700px;
+  height: 500px;
 }
 
 .img-main {
   width: 1682px;
-  height: 459px;
+  height: 350px;
   background: no-repeat center/cover
     url("../../assets/images/banner-fundo-paginas.png");
-  border-radius: 20px;
+  border-radius: 30px;
 }
-.titulo-banner {
-  margin: 150px 0px 150px 360px;
-  font-size: 100px;
+
+.titulo-banner-protesto {
+  margin: 250px 0px 180px 360px;
+  font-size: 10px;
 }
 .titulo-banner-cartorio-online {
   margin: 150px 0px 150px 480px;
@@ -3727,11 +3728,82 @@ textarea {
       url("../../assets/images/banner-fundo-paginas.png");
     border-radius: 20px;
   }
-  .titulo-banner {
+  .titulo-banner-protesto {
     margin: 50px 0px 50px 40px;
     font-size: 22px;
   }
 }
+
+@media screen and (min-width: 480px) and (max-width: 568px) {
+  .container-subheader {
+    background-color: #16a4e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 565px;
+    height: 200px;
+  }
+  .img-main {
+    width: 450px;
+    height: 150px;
+    background: no-repeat center/cover
+      url("../../assets/images/banner-fundo-paginas.png");
+    border-radius: 22px;
+  }
+  .titulo-banner-protesto {
+    margin: 50px 0px 50px 40px;
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 568px) and (max-width: 768px){
+  .container-subheader {
+    background-color: #16a4e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 768px;
+    height: 200px;
+  }
+  .img-main {
+    width: 650px;
+    height: 150px;
+    background: no-repeat center/cover
+      url("../../assets/images/banner-fundo-paginas.png");
+    border-radius: 22px;
+  }
+  .titulo-banner-protesto {
+    margin: 50px 0px 50px 40px;
+    font-size: 10px;
+  }
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  .container-subheader {
+    background-color: #16a4e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1024px;
+    height: 200px;
+  }
+  .img-main {
+    width: 900px;
+    height: 150px;
+    background: no-repeat center/cover
+      url("../../assets/images/banner-fundo-paginas.png");
+    border-radius: 22px;
+  }
+  .titulo-banner-protesto {
+    margin: 50px 0px 50px 40px;
+    font-size: 10px;
+  }
+
+
+}
+
 
 /* Fim subheader */
 

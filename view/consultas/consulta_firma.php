@@ -82,15 +82,15 @@
     
               <div class="second-section-out">
                 <h3 class="title-footer-out">Links Úteis</h3>
-                <p><a href="index.html">Sobre o Cartório</a></p>
-                <p><a href="#service">Serviços</a></p>
+                <p><a href="../../../index.html">Sobre o Cartório</a></p>
+                <p><a href="../../../index.html#service">Serviços</a></p>
                 <p>
-                  <a href="view/cartorio-online.html" target="_blank"
+                  <a href="../cartorio-online.html" target="_blank"
                     >Cartório Online</a
                   >
                 </p>
                 <p>
-                  <a href="view/portal-transparencia.html" target="_blank"
+                  <a href="portal-transparencia.html" target="_blank"
                     >Compliance</a
                   >
                 </p>
