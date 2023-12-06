@@ -6068,102 +6068,98 @@ textarea {
 /* Inicio section Fale conosco  */
 .fale-conosco{
   background-color: #16A4E0;
-  border-radius: 32% 64% 40% 72% / 41% 29% 83% 59%     ;
- 
-}
-
-
-
-.info-fale-conosco{
-
-display: flex;
-flex-direction: row;
-justify-content: space-evenly;
-align-items: center;
-border-radius: 20px;
-padding: 20px;
-
-
-}
-
-.img-fale-conosco{
-
-width: 600px;
-height: 500px;
-
-}
-
-
-.coluna-fale-conosco{
-
-display: flex;
-flex-direction: column;
-justify-content: space-evenly;
-align-items: center;
-background-color: rgba(32, 88, 114, 0.178);
-border-radius: 20px;
-width: 600px;
-height: 500px;
-box-shadow: 1px 1px 2px rgb(245, 245, 245), 0 0 15px #f9fcfd, 0 0 5px #205872;
-
-
-
-}
-.coluna-contatos{
-
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-width: 550px;
-
-
-
-
-}
-.email-fale-conosco{
-
+  border-radius: 20px  ;
+  }
+  
+  
+  
+  .info-fale-conosco{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 20px;
+  padding: 20px;
+  }
+  
+  .img-fale-conosco{
+  width: 600px;
+  height: 600px;
+  border-radius: 35% 65% 51% 49% / 37% 45% 55% 63% ;
+  box-shadow: 1px 1px 2px rgb(245, 245, 245), 0 0 15px #f9fcfd, 0 0 5px #205872;
+  }
+  
+  
+  .coluna-fale-conosco{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(32, 88, 114, 0.178);
+  border-radius: 20px;
+  width: 600px;
+  height: 450px;
+  box-shadow: 1px 1px 2px rgb(245, 245, 245), 0 0 15px #f9fcfd, 0 0 5px #205872;
+  }
+  
+  .coluna-contatos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 550px;
+  }
+  
+  .email-fale-conosco{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-
-}
-
-.telefone-fale-conosco{
-
+  }
+  
+  .telefone-fale-conosco{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-}
-
-.horario-fale-conosco{
-
+  }
+  
+  .horario-fale-conosco{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-
-}
-
-
-.localizacao-fale-conosco{
-
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-margin-top: 50px;
-
-
-}
-
-
-.mapa-fale-conosco{
-
-
-
-}
-/* Fim section Fale Conosco */
+  }
+  
+  .mapa-section{
+    margin-top: -220px;
+  }
+  .localizacao-fale-conosco{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  }
+  
+  
+  .mapa-fale-conosco{
+  width: 800px;
+  height: 500px;
+  }
+  
+  .mapa{
+  width: 800px;
+  height: 500px;
+  box-shadow: 1px 1px 2px rgb(245, 245, 245), 0 0 25px #f9fcfd, 0 0 5px #205872;
+  }
+  
+  .wave-mapa {
+  margin-bottom: -400px;
+  }
+  
+  .wave-mapa-2 {
+  margin-top: -275px;
+  }
+  
+  
+  /* Fim section Fale Conosco */
