@@ -2685,18 +2685,20 @@ button:disabled,
   flex-shrink: 1;
   width: 100%;
 }
-#main > .inner {
-  padding: 0 6em 0.1em 6em;
+ #main > .inner {
+  /* margens homepage */
+  /* padding: 0 6em 0.1em 6em; */
   margin: 0 auto;
   max-width: 110em;
-}
-#main > .inner > section {
-  padding: 6em 0 4em 0;
-  /* border-top: solid 2px rgba(235, 8, 8, 0.75); */
 }
 #main > .inner > section:first-of-type {
   border-top: 0 !important;
 }
+/* #main > .inner > section {
+  padding: 3em 0 2em 0;
+  border-top: solid 2px rgba(235, 8, 8, 0.75);
+}
+
 @media screen and (max-width: 1680px) {
   #main > .inner {
     padding: 0 5em 0.1em 5em;
@@ -2720,7 +2722,7 @@ button:disabled,
   #main > .inner > section {
     padding: 3em 0 1em 0;
   }
-}
+} */
 
 /* Sidebar */
 /* #search form {
@@ -2843,6 +2845,7 @@ button:disabled,
   width: 6em;
   z-index: 10000;
 }
+/* cor do hamburguer menu escondido */
 #sidebar .toggle:before {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -2854,7 +2857,13 @@ button:disabled,
   text-transform: none !important;
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
+  color: #205872;
 }
+#sidebar .toggle:hover{
+color: #16A4E0;
+}
+
+
 #sidebar .toggle:before {
   content: "\f0c9";
   font-size: 2rem;
@@ -2950,7 +2959,7 @@ button:disabled,
   }
   /* cor do hamburgue do menu  */
   #sidebar .toggle:after {
-    /* background: rgba(255, 255, 255, 0.75); */
+    /* background: rgba(116, 113, 113, 0.75); */
     border-radius: 0.375em;
     content: "";
     height: 3.5em;
@@ -2958,19 +2967,15 @@ button:disabled,
     position: absolute;
     top: 1em;
     width: 5em;
+
   }
 }
 
 /* Header */
 #header {
-  /* display: -moz-flex;
-  display: -webkit-flex;
-  display: -ms-flex; */
-  /* position: relative; */
   display: flex;
-  flex-direction: row;
-  padding: 16em 0 0 0;
-  /* border-bottom: solid 5px #ffffff; */
+  /* padding: 20em 0 0 0; */
+  padding:30px 0 15em 80px;
   justify-content: flex-start;
 }
 
@@ -2982,15 +2987,47 @@ button:disabled,
   /* margin-bottom: 0; */
   gap: 5px;
 }
+
+#menu-border{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 60px;
+  width: 300px;
+  background-color: #ffffff;
+  border-bottom: solid 5px #16A4E0;
+  border-radius: 20px;
+  color: #16A4E0;
+  margin-left: -70px;
+
+}
+#menu-border .icons{
+  display: flex;
+  align-items: baseline;
+  margin-top: 40px;
+  padding-left: 40px;
+
+}
+#menu-border .menu-titulo{
+  font-family: "Roboto Slab", serif;
+  font-size: 2.125em;
+  padding-left: 40px;
+}
+#menu-border .icons .icone-menu{
+font-size: 30px;
+color: #16A4E0;
+}
 #header .logo {
-  color: inherit;
+  /* color: inherit; */
+  color: #e01616;
   font-family: "Roboto Slab", serif;
   font-size: 1.125em;
 }
-#header .icons {
+/* #header .icons {
   text-align: center;
   padding-left: 180px;
-}
+} */
 @media screen and (max-width: 1680px) {
   #header {
     padding-top: 5em;
@@ -3474,31 +3511,24 @@ textarea {
 
 /* inicio carrossel */
 
-.conteudo-secundario {
-  display: flex;
-  width: 1800px;
+#conteudo-secundario {
+  /* width: 1400px; */
   height: 800px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: baseline;
-  margin: 0 20em 0 -70px;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .slider {
   margin: 0 auto;
-  width: 1600px;
+  width: 1450px;
   height: 800px;
+  padding: 30px;
   overflow: hidden;
 }
 /*classes hover*/
-.slider .container {
-  position: relative;
-  width: 950px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 30px;
-}
 
 .slides {
   width: 100%;
@@ -3523,41 +3553,50 @@ textarea {
   
 } */
 
-.container .card {
+.slider .card {
   position: relative;
-  width: 500px;
-  height: 200px;
-  background-color: rgb(32, 116, 189);
+  width: 440px;
+  height: 350px;
+  background-color: #16A4E0;
   margin: 20px 20px;
   padding: 20px 0px;
   display: flex;
   flex-direction: column;
   transition: 0.3s ease-in-out;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
 }
 
-.container .card:hover {
+.slider .card:hover {
   height: 600px;
 }
 
-.container .card .imgBx {
+.slider .card .imgBx {
   position: relative;
   width: 400px;
-  height: 400px;
+  height: 300px;
   top: -60px;
-  left: 50px;
+  left: 20px;
   z-index: 1;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0, 5);
+  border-radius: 20px;
+
+}
+.titulo-card{
+  background-color:#205872;
+  border-radius: 20px;
+  text-align: center;
 }
 
-.container .card .imgBx img {
-  max-width: 100%;
+
+.slider .card .imgBx img {
+  
   width: 400px;
   height: 300px;
-  border-radius: 4px;
+  border-radius: 20px;
 }
 
-.container .card .content {
+.slider .card .content {
   position: relative;
   margin-top: -150px;
   padding: 10px 15px;
@@ -3567,31 +3606,33 @@ textarea {
   opacity: 0;
   transition: 0.3s ease-in-out;
 }
-.container .card .content p {
+.slider .card .content p {
   text-align: justify;
 }
 
-.container .card:hover .content {
+.slider .card:hover .content {
   visibility: visible;
   opacity: 1;
-  margin-top: -150px;
+  margin-top: 0px;
   transition-delay: 0.3s;
 }
 
 /*fim classes hover*/
 
 .manual-navigation {
-  position: absolute;
-  width: 800px;
-  margin-top: -40px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .manual-btn {
-  border: 2px solid #1713d8;
+  width: 30px;
+  height: 20px;
+  background-color: #16A4E0;
+  border: 2px solid #205872;
   padding: 5px;
   border-radius: 3px;
+  box-shadow: 1px 1px 2px #16A4E0, 0 0 10px #16A4E0, 0 0 5px #16A4E0;
   cursor: pointer;
   transition: 1s;
 }
@@ -3601,21 +3642,25 @@ textarea {
 }
 
 .manual-btn:hover {
-  background-color: #00d9e9;
+  background-color: #205872;
 }
 
 #radio1:checked ~ .first {
-  margin-left: 0;
+  margin-left: -2%;
 }
 
 #radio2:checked ~ .first {
-  margin-left: -102%;
+  margin-left: -106%;
 }
 
 #radio3:checked ~ .first {
-  margin-left: -204%;
+  margin-left: -209%;
 }
 
+.wave-3{
+  margin-top: -200px;
+  margin-bottom: -15px;
+}
 /* fim carrossel */
 
 /* Início - Header Páginas Secundárias */
@@ -6068,7 +6113,6 @@ textarea {
 /* Inicio section Fale conosco  */
 .fale-conosco{
   background-color: #16A4E0;
-  border-radius: 20px  ;
   }
   
   
@@ -6131,7 +6175,7 @@ textarea {
   }
   
   .mapa-section{
-    margin-top: -220px;
+    margin-top: -40px;
   }
   .localizacao-fale-conosco{
   display: flex;
@@ -6140,6 +6184,26 @@ textarea {
   align-items: center;
   margin-top: 50px;
   }
+  .title-service-fale-conosco {
+    position: relative;
+    text-align: center;
+  }
+  .title-service-fale-conosco::after {
+    content: " ";
+    width: 0%;
+    height: 3px;
+    background-color: #205872;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.9s;
+  }
+  
+  .title-service-fale-conosco:hover::after {
+    width: 100%;
+  }
+  
+  
   
   
   .mapa-fale-conosco{
@@ -6148,18 +6212,20 @@ textarea {
   }
   
   .mapa{
-  width: 800px;
+  width: 1000px;
   height: 500px;
+  background-color: #2f00ff;
   box-shadow: 1px 1px 2px rgb(245, 245, 245), 0 0 25px #f9fcfd, 0 0 5px #205872;
   }
   
   .wave-mapa {
-  margin-bottom: -400px;
+  margin-bottom: -430px;
   }
   
   .wave-mapa-2 {
-  margin-top: -275px;
+  margin-top: -300px;
   }
-  
+
+ 
   
   /* Fim section Fale Conosco */
