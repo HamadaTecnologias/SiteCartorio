@@ -2857,10 +2857,6 @@ button:disabled,
   text-transform: none !important;
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  color: #205872;
-}
-#sidebar .toggle:hover{
-color: #16A4E0;
 }
 
 
@@ -2956,10 +2952,10 @@ color: #16A4E0;
     margin-top: -0.25em;
     font-size: 1.1rem;
     z-index: 1;
+    color: #205872;
   }
   /* cor do hamburgue do menu  */
   #sidebar .toggle:after {
-    /* background: rgba(116, 113, 113, 0.75); */
     border-radius: 0.375em;
     content: "";
     height: 3.5em;
@@ -2967,6 +2963,7 @@ color: #16A4E0;
     position: absolute;
     top: 1em;
     width: 5em;
+   
 
   }
 }
@@ -2994,7 +2991,7 @@ color: #16A4E0;
   align-items: center;
   justify-content: space-around;
   height: 60px;
-  width: 300px;
+  width: 180px;
   background-color: #ffffff;
   border-bottom: solid 5px #16A4E0;
   border-radius: 20px;
@@ -3009,25 +3006,11 @@ color: #16A4E0;
   padding-left: 40px;
 
 }
-#menu-border .menu-titulo{
-  font-family: "Roboto Slab", serif;
-  font-size: 2.125em;
-  padding-left: 40px;
-}
 #menu-border .icons .icone-menu{
 font-size: 30px;
 color: #16A4E0;
 }
-#header .logo {
-  /* color: inherit; */
-  color: #e01616;
-  font-family: "Roboto Slab", serif;
-  font-size: 1.125em;
-}
-/* #header .icons {
-  text-align: center;
-  padding-left: 180px;
-} */
+
 @media screen and (max-width: 1680px) {
   #header {
     padding-top: 5em;
@@ -3037,9 +3020,17 @@ color: #16A4E0;
   #header {
     padding-top: 6.5em;
   }
-  #header .logo {
-    font-size: 1.25em;
-    margin: 0;
+  #header .icons {
+    height: 5em;
+    line-height: 5em;
+    position: absolute;
+    right: -0.5em;
+    top: 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  #header {
+    padding-top: 1em;
   }
   #header .icons {
     height: 5em;
@@ -3052,7 +3043,7 @@ color: #16A4E0;
 
 /* Banner */
 #banner {
-  padding: 6em 0 0 0;
+  padding: 6em 0 0 3em;
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
