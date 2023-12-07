@@ -3186,7 +3186,7 @@ color: #16A4E0;
 }
 @media screen and (orientation: portrait) and (max-width: 480px) {
   .inicial {
-    height: calc(80vh - 250px);
+    height: calc(100vh - 250px);
 
   }
   #banner {
@@ -3195,10 +3195,10 @@ color: #16A4E0;
     margin-bottom: 10px;
   }
   #banner .content {
-    margin-top: -100px;
+    margin-top: -80px;
     margin-left: -5px;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.212);
+    background-color:  #205872;
     border-radius: 20px;
   }
 
@@ -3207,10 +3207,10 @@ color: #16A4E0;
     max-height: 35vh;
   }
   #banner .banner-h1 {
-    color: #16A4E0;
+    color: #ffffff;
   }
   #banner .banner-p {
-    color: #16A4E0;
+    color: #ffffff;
   }
 
 }
@@ -3738,7 +3738,7 @@ textarea {
 
 @media screen and (max-width: 480px) {
   #conteudo-secundario {
-    height: 800px;
+    height: 625px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -3920,10 +3920,6 @@ textarea {
   }
   
   
-  .wave-3{
-    margin-top: -8em;
-    margin-bottom: -15px;
-  }
 
 
 }
@@ -6451,7 +6447,6 @@ textarea {
   .mapa{
   width: 1000px;
   height: 500px;
-  background-color: #2f00ff;
   box-shadow: 1px 1px 2px rgb(245, 245, 245), 0 0 25px #f9fcfd, 0 0 5px #205872;
   }
   
@@ -6465,14 +6460,22 @@ textarea {
 
  
   @media screen and (max-width: 480px) {
+    .wave-3{
+      margin-top: -20px;
+      margin-bottom: 0px;
+    }
+  
 
-      
+      .fale-conosco{
+        margin-top: -10px;
+      }
       .info-fale-conosco{
       display: flex;
       flex-direction: column;
       justify-content: space-around;
       align-items: center;
       border-radius: 20px;
+      gap: 20px;
       }
       
       .img-fale-conosco{
@@ -6491,7 +6494,7 @@ textarea {
       background-color: rgba(32, 88, 114, 0.178);
       border-radius: 20px;
       width: 360px;
-      height: 1000px;
+      height: 400px;
       box-shadow: 1px 1px 2px rgb(245, 245, 245), 0 0 15px #f9fcfd, 0 0 5px #205872;
       }
       
@@ -6529,10 +6532,13 @@ textarea {
       .localizacao-fale-conosco{
       display: flex;
       flex-direction: column;
-      justify-content: center;
       align-items: center;
-      margin-top: 50px;
+      margin-top: 8px;
       }
+      .localizacao-fale-conosco h4{
+        visibility: hidden;
+
+        }
       .title-service-fale-conosco {
         position: relative;
         text-align: center;
@@ -6552,23 +6558,25 @@ textarea {
         width: 100%;
       }
       
-      
-      
-      
+
       .mapa-fale-conosco{
       width: 800px;
       height: 500px;
       }
       
       .mapa{
-      width: 1000px;
-      height: 500px;
+      margin-top: -70px;
+      width: 400px;
+      height: 400px;
       background-color: #2f00ff;
       box-shadow: 1px 1px 2px rgb(245, 245, 245), 0 0 25px #f9fcfd, 0 0 5px #205872;
       }
       
       .wave-mapa {
-      margin-bottom: -430px;
+        margin: 0 auto;
+      margin-bottom: -115px;
+      /* height: 150px; */
+
       }
       
       .wave-mapa-2 {
