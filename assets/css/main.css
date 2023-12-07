@@ -3997,128 +3997,96 @@ textarea {
 
 /* Fim - Header Páginas Secundárias */
 
-/* Início Subheader Geral das Páginas Secundárias */
-
+/* Início Subheader Geral das Páginas Secundárias (Banner) */
 .container-subheader {
-  background-color: #16a4e0;
+  background-color: #16A4E0;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1700px;
-  height: 500px;
+  width: 100%; 
+  max-width: 1700px; 
+  height: auto; 
+  padding: 30px;
 }
 
 .img-main {
-  width: 1682px;
-  height: 350px;
-  background: no-repeat center/cover
-    url("../../assets/images/banner-fundo-paginas.png");
-  border-radius: 30px;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  width: 75%;
+  height: 235px;
+  background: no-repeat center/cover url("../../assets/images/banner-fundo-paginas.png");
+  border-radius: 15px;
 }
+/* Fim do código geral subheader (banner) */
 
-.titulo-banner-protesto {
-  margin: 250px 0px 180px 360px;
-  font-size: 10px;
-}
-.titulo-banner-cartorio-online {
-  margin: 150px 0px 150px 480px;
-  font-size: 100px;
+/* Início Responsividade subheader (banner) */
+
+@media screen and (max-width: 320px) {
+  .container-subheader {
+    padding: 5px; 
+  }
+
+  .img-main {
+    height: 30px;
+    border-radius: 5px;
+    width: 0.1%;
+  }
 }
 
 @media screen and (max-width: 480px) {
   .container-subheader {
-    background-color: #16a4e0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 330px;
-    height: 200px;
+    padding: 5px; 
+    border-radius: 10px;
   }
+
   .img-main {
-    width: 280px;
-    height: 150px;
-    background: no-repeat center/cover
-      url("../../assets/images/banner-fundo-paginas.png");
-    border-radius: 20px;
-  }
-  .titulo-banner-protesto {
-    margin: 50px 0px 50px 40px;
-    font-size: 22px;
+    height: 80px;
+    border-radius: 5px;
+    width: 80%;
   }
 }
 
 @media screen and (min-width: 480px) and (max-width: 568px) {
   .container-subheader {
-    background-color: #16a4e0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 565px;
-    height: 200px;
+    padding: 5px;
+    border-radius: 10px;
   }
+
   .img-main {
-    width: 450px;
-    height: 150px;
-    background: no-repeat center/cover
-      url("../../assets/images/banner-fundo-paginas.png");
-    border-radius: 22px;
-  }
-  .titulo-banner-protesto {
-    margin: 50px 0px 50px 40px;
-    font-size: 10px;
+    height: 100px;
+    border-radius: 7px;
   }
 }
 
-@media screen and (min-width: 568px) and (max-width: 768px){
+
+@media screen and (min-width: 568px) and (max-width: 768px) {
   .container-subheader {
-    background-color: #16a4e0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 768px;
-    height: 200px;
-  }
-  .img-main {
-    width: 650px;
-    height: 150px;
-    background: no-repeat center/cover
-      url("../../assets/images/banner-fundo-paginas.png");
-    border-radius: 22px;
-  }
-  .titulo-banner-protesto {
-    margin: 50px 0px 50px 40px;
-    font-size: 10px;
+    padding: 25px; 
+    border-radius: 10px;
   }
 
+  .img-main {
+    height: 150px;
+    border-radius: 10px;
+    width: 85%;
+  }
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 1024px){
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .container-subheader {
-    background-color: #16a4e0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1024px;
-    height: 200px;
+    padding: 25px; 
+    border-radius: 10px;
   }
+
   .img-main {
-    width: 900px;
-    height: 150px;
-    background: no-repeat center/cover
-      url("../../assets/images/banner-fundo-paginas.png");
-    border-radius: 22px;
+    height: 180px;
+    border-radius: 12px;
+    width: 90%;
   }
-  .titulo-banner-protesto {
-    margin: 50px 0px 50px 40px;
-    font-size: 10px;
-  }
-
-
 }
-
-
-/* Fim subheader */
+/* Fim Responsividade subheader (banner) */
 
 /* Início Específico - Tela RGI */
 
