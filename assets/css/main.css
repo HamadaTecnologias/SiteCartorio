@@ -6039,6 +6039,14 @@ textarea {
   text-align: center;
 }
 
+
+.hover-link:hover{
+  background-color: #16A4E0;
+  padding: 3px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
 .escritura-publica-pic {
   width: 400px;
   height: 400px;
