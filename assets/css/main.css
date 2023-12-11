@@ -2884,7 +2884,7 @@ button:disabled,
 #sidebar.inactive {
   margin-left: -26em;
 }
-@media screen and (max-width: 1680px) {
+/* @media screen and (max-width: 1680px) {
   #sidebar {
     width: 24em;
   }
@@ -2910,7 +2910,42 @@ button:disabled,
   #sidebar.inactive {
     margin-left: -24em;
   }
+} */
+
+@media screen and (max-width: 1824px) {
+  #sidebar {
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+  }
+  #sidebar > .inner {
+    /* -webkit-overflow-scrolling: touch; */
+    height: 100%;
+    left: 0;
+    /* overflow-x: hidden; */
+    /* overflow-y: auto; */
+    top: 0;
+  }
+  #sidebar > .inner:after {
+    /* content: ""; */
+    /* display: block; */
+    height: 4em;
+    width: 100%;
+  }
+  #sidebar .toggle {
+    text-indent: 6em;
+    width: 6em;
+  }
+  #sidebar .toggle:before {
+    font-size: 1.5rem;
+    margin-left: -0.1em;
+  }
+  body.is-preload #sidebar {
+    display: none;
+  }
 }
+
 @media screen and (max-width: 1280px) {
   #sidebar {
     box-shadow: 0 0 5em 0 rgba(0, 0, 0, 0.175);
@@ -3215,27 +3250,29 @@ color: #16A4E0;
 
 }
 
-@media screen and (min-width: 482px) and (max-width: 768px) {
+@media screen and (min-width: 482px) and (max-width: 849px) {
   .inicial {
     height: calc(100vh - 60px);
 
   }
   #banner {
-    padding: 0 0 0 1em;
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 0 0.5em;
     margin-top: -50px;
     margin-bottom: 80px;
   }
   #banner .content {
-    margin-top: -60px;
+    margin-top: -20px;
     padding:0 0 0 10px;
-    width: 400px;
+    width: 300px;
   }
 
   #banner .image {
     margin-top: 0px;
-    max-height: 30vh;
+    max-height: 25vh;
     width: 60%;
-    margin: 100px 0 0 -70px;
+    margin: 100px 0 0 0px;
   }
   #banner .banner-h1 {
     color: #ffffff;
@@ -3283,7 +3320,7 @@ color: #16A4E0;
 
 @media screen and (min-width: 1025px) and (max-width: 1700px) {
   .inicial {
-    height: calc(100vh + 150px);
+    height: calc(100vh - 100px);
 
   }
   #banner {
@@ -3833,7 +3870,7 @@ textarea {
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1023px) {
   #conteudo-secundario {
     height: 625px;
     display: flex;
@@ -4021,195 +4058,8 @@ textarea {
 
 }
 
-@media screen and (max-width: 768px) {
-  #conteudo-secundario {
-    height: 625px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-  }
-  
-  .slider {
-    margin: 0 auto;
-    width: 420px;
-    height: 800px;
-    padding: 30px;
-    overflow: hidden;
-  }
-  /*classes hover*/
-  
-  .slides {
-    width: 250%;
-    height: 600px;
-    display: flex;
-  }
-  
-  .slides input {
-    display: none;
-  }
-  
-  .slide {
-    width: 50%;
-    margin-top: 50px;
-    position: relative;
-    transition: 2s;
-  }
-  
-  
-  .slider .card {
-    position: relative;
-    width: 400px;
-    height: 320px;
-    background-color: #16A4E0;
-    margin: 20px 20px;
-    padding: 20px 0px;
-    display: flex;
-    flex-direction: column;
-    transition: 0.3s ease-in-out;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
-    border-radius: 20px;
-  }
-  
-  .slider .card:hover {
-    height: 500px;
-  }
-  
-  .slider .card .imgBx {
-    position: relative;
-    width: 340px;
-    height: 260px;
-    top: -60px;
-    left: 32px;
-    z-index: 1;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0, 5);
-    border-radius: 20px;
-  
-  }
-  .titulo-card{
-    background-color:#205872;
-    border-radius: 20px;
-    text-align: center;
-  }
-  
-  
-  .slider .card .imgBx img {
-    
-    width: 340px;
-    height: 260px;
-    border-radius: 20px;
-  }
-  
-  .slider .card .content {
-    position: relative;
-    margin-top: -150px;
-    padding: 10px 15px;
-    text-align: center;
-    color: #ffffff;
-    visibility: hidden;
-    opacity: 0;
-    transition: 0.3s ease-in-out;
-  }
-  .slider .card .content p {
-    text-align: justify;
-  }
-  
-  .slider .card:hover .content {
-    visibility: visible;
-    opacity: 1;
-    margin-top: 0px;
-    transition-delay: 0.3s;
-  }
-  
-  
-  .manual-navigation {
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    width: 350px;
-  }
-  
-  .manual-btn {
-    margin: 0 auto;
-    width: 20px;
-    height: 20px;
-    background-color: #16A4E0;
-    border: 2px solid #205872;
-    border-radius: 3px;
-    box-shadow: 1px 1px 2px #16A4E0, 0 0 10px #16A4E0, 0 0 5px #16A4E0;
-    cursor: pointer;
-    transition: 1s;
-    
-  }
-  .btn-invisivel{
-    margin: 0 auto;
-    width: 20px;
-    height: 20px;
-    background-color: #16A4E0;
-    border: 2px solid #205872;
-    padding: 5px;
-    border-radius: 3px;
-    box-shadow: 1px 1px 2px #16A4E0, 0 0 10px #16A4E0, 0 0 5px #16A4E0;
-    cursor: pointer;
-    transition: 1s;
-  }
-  .manual-btn:not(:last-child) {
-    margin-right: 10px;
-  }
-  
-  .manual-btn:hover {
-    background-color: #205872;
-  }
-  .btn-invisivel:not(:last-child) {
-    margin-right: 10px;
-  }
-  
-  .btn-invisivel:hover {
-    background-color: #205872;
-  }
-  
-  #radio1:checked ~ .first {
-    margin-left: -4.5%;
-  }
-  
-  #radio2:checked ~ .first {
-    margin-left: -53%;
-  }
-  
-  #radio3:checked ~ .first {
-    margin-left: -102%;
-  }
-  #radio4:checked ~ .first {
-    margin-left: -151%;
-  }
-  
-  #radio5:checked ~ .first {
-    margin-left: -199.5%;
-  }
-  
-  #radio6:checked ~ .first {
-    margin-left: -249%;
-  }
-  #radio7:checked ~ .first {
-    margin-left: -297.5%;
-  }
-  
-  #radio8:checked ~ .first {
-    margin-left: -354%;
-  }
-  
-  #radio9:checked ~ .first {
-    margin-left: -405%;
-  }
-  
-  
 
-
-}
-
-@media screen and (min-width: 770px) and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1250px) {
 
 
   #conteudo-secundario {
@@ -4328,7 +4178,7 @@ textarea {
   .manual-btn {
     width: 30px;
     height: 20px;
-    background-color: #16A4E0;
+    background-color: #ffffff;
     border: 2px solid #205872;
     padding: 5px;
     border-radius: 3px;
@@ -4366,10 +4216,11 @@ textarea {
 
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1700px) {
+@media screen and (min-width: 1300px) and (max-width: 1520px) {
 
 
   #conteudo-secundario {
+    /* width: 1400px; */
     height: 800px;
     display: flex;
     flex-direction: column;
@@ -4381,12 +4232,10 @@ textarea {
   
   
   .slider {
-    margin: 0 auto;
-    width: 1000px;
+    width: 1024px;
     height: 800px;
-    padding: 30px;
     overflow: hidden;
-    background-color: #2453ee;
+    background-color: #2f00ff;
   }
   /*classes hover*/
   
@@ -4486,7 +4335,7 @@ textarea {
   .manual-btn {
     width: 30px;
     height: 20px;
-    background-color: #16A4E0;
+    background-color: #ffffff;
     border: 2px solid #205872;
     padding: 5px;
     border-radius: 3px;
@@ -4523,6 +4372,7 @@ textarea {
 
 
 }
+
 
 /* fim carrossel */
 
