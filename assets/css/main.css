@@ -4470,6 +4470,7 @@ textarea {
 @media screen and (max-width: 320px) {
   .container-subheader {
     padding: 5px; 
+    width: 100%;
   }
 
   .img-main {
@@ -4483,12 +4484,13 @@ textarea {
   .container-subheader {
     padding: 5px; 
     border-radius: 10px;
+    width: 100%;
   }
 
   .img-main {
     height: 80px;
     border-radius: 5px;
-    width: 80%;
+    width: 100%;
   }
 }
 
@@ -4501,6 +4503,7 @@ textarea {
   .img-main {
     height: 100px;
     border-radius: 7px;
+    width: 100%;
   }
 }
 
@@ -4509,12 +4512,14 @@ textarea {
   .container-subheader {
     padding: 25px; 
     border-radius: 10px;
+    width: 100%;
   }
 
   .img-main {
     height: 150px;
     border-radius: 10px;
     width: 85%;
+    width: 100%;
   }
 }
 
@@ -4523,12 +4528,13 @@ textarea {
   .container-subheader {
     padding: 25px; 
     border-radius: 10px;
+    width: 100%;
   }
 
   .img-main {
     height: 180px;
     border-radius: 12px;
-    width: 90%;
+    width: 100%;
   }
 }
 /* Fim Responsividade subheader (banner) */
@@ -6348,10 +6354,6 @@ textarea {
 /* Fim Responsividade Geral - Página de Protestos  */
 
 /* Inicio Cartorio Online */
-.titulo-banner-cartorio-online {
-  margin: 150px 0px 150px 480px;
-  font-size: 100px;
-}
 
 .content-section {
   display: flex;
@@ -6387,6 +6389,107 @@ textarea {
 }
 
 /* Fim Cartorio Online */
+
+/* Início Responsividade - Cartório Online */
+
+@media screen and (max-width: 320px) {
+  .content-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .coluna-section {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .img-coluna{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .content-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .coluna-section {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .img-coluna{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 568px) {
+  .content-section {
+    flex-wrap: wrap;
+  }
+
+  .coluna-section {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .img-coluna{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 568px) and (max-width: 768px) {
+  .content-section {
+    flex-wrap: wrap;
+  }
+
+  .coluna-section {
+    width: 45%;
+    margin: 10px;
+  }
+
+  .img-coluna{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .content-section {
+    flex-wrap: wrap;
+  }
+
+  .coluna-section {
+    width: 30%;
+    margin: 10px;
+  }
+
+  .img-coluna{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  .content-section {
+    display: flex;
+  }
+
+  .coluna-section {
+    width: 25%;
+    margin: 10px;
+  }
+}
+/* Fim da Responsividade - Cartório Online */
 
 /* Inicio Consulta Firma */
 .container-consultas {
