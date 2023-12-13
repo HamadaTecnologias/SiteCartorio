@@ -41,9 +41,11 @@
     
         <div class="container-consultas">
           <div class="pop-box">
+            <div class="message-pop">
             <?php
                 session_start();
                 if(isset($_GET['firma_ok'])){
+                  
                   echo "<h3 style=color:black;>FIRMA ENCONTRADA:</h3>";
                   echo "<h3 style=color:black;>Nome: ".$_SESSION['Nome']." | CPF:" .$_SESSION['Cpf']."</h3>";
             
@@ -53,6 +55,9 @@
                     echo '';
                 }
             ?>
+            </div>
+            <div class="embranco">
+            </div>
           </div> 
           <div class="img-consultas">
                 <h1 class="titulo-banner-consulta-firma">Consulte Sua Firma:</h1>

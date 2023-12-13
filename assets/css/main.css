@@ -2795,7 +2795,7 @@ button:disabled,
 
 }
 
-@media screen and (min-width: 769px) and (max-width: 1440px) {
+@media screen and (min-width: 769px) and (max-width: 1680px) {
   .img-menu {
     height: 100px;
     width: 300px;
@@ -3171,7 +3171,7 @@ color: #16A4E0;
   }
 
 
-@media screen and (min-width: 731px) and (max-width: 1300px) {
+@media screen and (min-width: 601px) and (max-width: 1300px) {
   #header {
     padding-top: 20px;
   }
@@ -3191,18 +3191,25 @@ color: #16A4E0;
       font-size: 28px;
       }
 }
-@media screen and (min-width: 481px) and (max-width: 730px) {
+@media screen and (min-width: 481px) and (max-width: 600px) {
   #header {
     padding-top: 100px;
+
+    flex-direction: row;
+
   }
   #menu-border{
+    width: 180px;
+    height: 60px;
+    flex-direction: row;
     margin-left: -60px;
-    height: 130px;
-    width: 50px;
+
+    
   }
   #menu-border .icons {
+    flex-direction: row;
     padding-left: 20px;
-    margin-top: 60px;
+    margin-top: 20px;
   }
   #menu-border .icons .icone-contato{
     font-size: 25px;
@@ -3215,16 +3222,22 @@ color: #16A4E0;
 @media screen and (max-width: 480px) {
   #header {
     padding-top: 100px;
+
+    flex-direction: row;
+
   }
   #menu-border{
+    width: 180px;
+    height: 60px;
+    flex-direction: row;
     margin-left: -60px;
-    height: 130px;
-    width: 50px;
+
     
   }
   #menu-border .icons {
+    flex-direction: row;
     padding-left: 20px;
-    margin-top: 60px;
+    margin-top: 20px;
   }
   #menu-border .icons .icone-contato{
     font-size: 25px;
@@ -3238,6 +3251,7 @@ color: #16A4E0;
 
 /* Banner */
 .inicial {
+  width: 100%;
   height: calc(100vh + 400px);
   background: no-repeat center/cover url("../css/css-assets/1.png");
 }
@@ -3262,7 +3276,7 @@ color: #16A4E0;
   -webkit-flex-shrink: 1;
   -ms-flex-shrink: 1;
   flex-shrink: 1;
-  width: 50%;
+  width: 100%;
   text-align: justify;
 }
 #banner .image {
@@ -3336,7 +3350,7 @@ color: #16A4E0;
   }
   #banner {
     padding: 0 0 0 1em;
-    margin-top: -50px;
+    margin-top: -100px;
     margin-bottom: 10px;
   }
   #banner .content {
@@ -3348,8 +3362,7 @@ color: #16A4E0;
   }
 
   #banner .image {
-    margin-top: -180px;
-    max-height: 35vh;
+    display: none;
   }
   #banner .banner-h1 {
     color: #ffffff;
@@ -3369,11 +3382,11 @@ color: #16A4E0;
     display: flex;
     flex-direction: row;
     padding: 0 0 0 0.5em;
-    margin-top: -100px;
+    margin-top: -140px;
     margin-bottom: 80px;
   }
   #banner .content {
-    margin-top: -20px;
+    margin-top: -50px;
     padding:0 0 0 10px;
     width: 300px;
   }
@@ -3408,7 +3421,7 @@ color: #16A4E0;
   #banner .content {
     margin-top: -60px;
     padding:0 0 0 4em;
-    width: 400px;
+    width: 100%;
   }
 
   #banner .image {
@@ -3992,11 +4005,10 @@ textarea {
   margin-bottom: -15px;
 }
 
-@media screen and (min-width: 1300px) and (max-width: 1520px) {
+/* @media screen and (min-width: 1300px) and (max-width: 1520px) {
 
 
   #conteudo-secundario {
-    /* width: 1400px; */
     height: 800px;
     display: flex;
     flex-direction: column;
@@ -4011,7 +4023,6 @@ textarea {
     height: 800px;
     overflow: hidden;
   }
-  /*classes hover*/
   
   .slides {
     width: 100%;
@@ -4145,9 +4156,9 @@ textarea {
   
 
 
-}
+} */
 
-@media screen and (min-width: 1024px) and (max-width: 1250px) {
+@media screen and (min-width: 1024px) and (max-width: 1299px) {
 
 
   #conteudo-secundario {
@@ -4341,6 +4352,186 @@ textarea {
   
   .slider .card {
     position: relative;
+    width: 360px;
+    height: 320px;
+    background-color: #16A4E0;
+    margin: 20px 20px;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+  }
+  
+  .slider .card:hover {
+    height: 500px;
+  }
+  
+  .slider .card .imgBx {
+    position: relative;
+    width: 320px;
+    height: 260px;
+    top: -60px;
+    left: 20px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0, 5);
+    border-radius: 20px;
+  
+  }
+  .titulo-card{
+    background-color:#205872;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  
+  .slider .card .imgBx img {
+    
+    width: 320px;
+    height: 260px;
+    border-radius: 20px;
+  }
+  
+  .slider .card .content {
+    position: relative;
+    margin-top: -150px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #ffffff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+  }
+  .slider .card .content p {
+    text-align: justify;
+  }
+  
+  .slider .card:hover .content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: 0px;
+    transition-delay: 0.3s;
+  }
+  
+  
+  .manual-navigation {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 350px;
+  }
+  
+  .manual-btn {
+    margin: 0 auto;
+    width: 20px;
+    height: 20px;
+    background-color: #16A4E0;
+    border: 2px solid #205872;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px #16A4E0, 0 0 10px #16A4E0, 0 0 5px #16A4E0;
+    cursor: pointer;
+    transition: 1s;
+    
+  }
+  .btn-invisivel{
+    margin: 0 auto;
+    width: 20px;
+    height: 20px;
+    background-color: #16A4E0;
+    border: 2px solid #205872;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px #16A4E0, 0 0 10px #16A4E0, 0 0 5px #16A4E0;
+    cursor: pointer;
+    transition: 1s;
+  }
+  .manual-btn:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  .manual-btn:hover {
+    background-color: #205872;
+  }
+  .btn-invisivel:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  .btn-invisivel:hover {
+    background-color: #205872;
+  }
+  
+  #radio1:checked ~ .first {
+    margin-left: -4.7%;
+  }
+  
+  #radio2:checked ~ .first {
+    margin-left: -49%;
+  }
+  
+  #radio3:checked ~ .first {
+    margin-left: -94%;
+  }
+  #radio4:checked ~ .first {
+    margin-left: -138%;
+  }
+  
+  #radio5:checked ~ .first {
+    margin-left: -204%;
+  }
+  
+  #radio6:checked ~ .first {
+    margin-left: -255%;
+  }
+
+  
+  
+
+
+}
+
+
+/* @media screen and(min-width:480) and(max-width:1023){
+  
+
+  #conteudo-secundario {
+    height: 625px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .slider {
+    margin: 0 auto;
+    width: 420px;
+    height: 800px;
+    padding: 30px;
+    overflow: hidden;
+  }
+  
+  .slides {
+    width: 250%;
+    height: 600px;
+    display: flex;
+  }
+  
+  .slides input {
+    display: none;
+  }
+  
+  .slide {
+    width: 50%;
+    margin-top: 50px;
+    position: relative;
+    transition: 2s;
+  }
+  
+  
+  .slider .card {
+    position: relative;
     width: 400px;
     height: 320px;
     background-color: #16A4E0;
@@ -4452,33 +4643,33 @@ textarea {
   }
   
   #radio1:checked ~ .first {
-    margin-left: -4.5%;
+    margin-left: -4.7%;
   }
   
   #radio2:checked ~ .first {
-    margin-left: -53%;
+    margin-left: -54%;
   }
   
   #radio3:checked ~ .first {
-    margin-left: -102%;
+    margin-left: -103%;
   }
   #radio4:checked ~ .first {
-    margin-left: -151%;
+    margin-left: -152%;
   }
   
   #radio5:checked ~ .first {
-    margin-left: -204%;
+    margin-left: -205%;
   }
   
   #radio6:checked ~ .first {
-    margin-left: -255%;
+    margin-left: -256%;
   }
 
-  
-  
+} */
 
 
-}
+
+
 
 
 
@@ -6477,12 +6668,12 @@ textarea {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height: 500px;
+  height: 600px;
   width: 400px;
   background-color: #16a3e0b9;
   margin: 2px;
   border-radius: 20px;
-  padding: 10px;
+  padding: 20px;
 }
 
 .coluna-parag {
@@ -6492,8 +6683,8 @@ textarea {
 }
 
 .img-coluna {
-  width: 360px;
-  height: 180px;
+  width: 100%;
+  height: 100%;
   border-radius: 20px;
   margin: 40px;
 }
@@ -6609,18 +6800,25 @@ textarea {
 
 /* Fim da Responsividade - Cartório Online */
 
-/* Inicio Consulta Firma */
+
+
+/* marcador */
+
+
+
+/* Inicio Consulta */
 .container-consultas {
   background-color: #16a4e0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 1855px;
+  width: 100%;
   height: 788px;
 }
 
 .pop-box {
+  width: 70%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -6638,7 +6836,7 @@ textarea {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 1682px;
+  width: 80%;
   height: 459px;
   background: no-repeat center/cover
     url("../../assets/images/banner-fundo-paginas.png");
@@ -6654,32 +6852,241 @@ textarea {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 1000px;
+  width: 70%;
 }
 
 .input-consultas {
   text-align: center;
 }
 
-/* Fim Consulta  Firma */
+@media screen and (max-width: 480px){
 
-/* Inicio Consulta REgistro */
+  .container-consultas {
+    background-color: #16a4e0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+  }
+  
+  .pop-box {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    border-radius: 20px;
+    margin: -50px 0px 20px 0px;
+    padding: 10px;
+  }
 
-.titulo-banner-consulta-registro {
-  margin: 50px 0px 0px 0px;
-  font-size: 100px;
+  
+  
+  .img-consultas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 300px;
+    background: no-repeat center/cover
+      url("../../assets/images/banner-fundo-paginas.png");
+    border-radius: 20px;
+  }
+  .titulo-banner-consulta-firma {
+    margin: 50px 0px 0px 0px;
+    font-size: 22px;
+  }
+  
+  .form-consultas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+  }
+  
+  .input-consultas {
+    text-align: center;
+  }
+  
 }
 
-/* Fim consulta registro */
+@media screen and (min-width: 481px) and (max-width: 768px){
 
-/* Inicio Consulta Protesto  */
+  .container-consultas {
+    background-color: #16a4e0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+  }
+  
+  .pop-box {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    border-radius: 20px;
+    margin: 20px 0px 20px 0px;
+    padding: 10px;
+  }
 
-.titulo-banner-consulta-protesto {
-  margin: 50px 0px 0px 0px;
-  font-size: 100px;
+  
+  
+  .img-consultas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 300px;
+    background: no-repeat center/cover
+      url("../../assets/images/banner-fundo-paginas.png");
+    border-radius: 20px;
+  }
+  .titulo-banner-consulta-firma {
+    margin: 50px 0px 0px 0px;
+    font-size: 35px;
+  }
+  
+  .form-consultas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+  }
+  
+  .input-consultas {
+    text-align: center;
+  }
+  
 }
 
-/* Fim Consulta Protesto  */
+@media screen and (min-width: 769px) and (max-width: 1024px){
+
+  .container-consultas {
+    background-color: #16a4e0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+  }
+  
+  .pop-box {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    border-radius: 20px;
+    margin: 20px 0px 20px 0px;
+    padding: 10px;
+  }
+
+  
+  
+  .img-consultas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 300px;
+    background: no-repeat center/cover
+      url("../../assets/images/banner-fundo-paginas.png");
+    border-radius: 20px;
+  }
+  .titulo-banner-consulta-firma {
+    margin: 50px 0px 0px 0px;
+    font-size: 50px;
+  }
+  
+  .form-consultas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+  }
+  
+  .input-consultas {
+    text-align: center;
+  }
+  
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px){
+
+  .container-consultas {
+    background-color: #16a4e0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+  }
+  .pop-box {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    border-radius: 20px;
+    margin: 20px 0px 20px 0px;
+    padding: 10px;
+  }
+
+  
+  
+  .img-consultas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 300px;
+    background: no-repeat center/cover
+      url("../../assets/images/banner-fundo-paginas.png");
+    border-radius: 20px;
+  }
+  .titulo-banner-consulta-firma {
+    margin: 50px 0px 0px 0px;
+    font-size: 80px;
+  }
+  
+  .form-consultas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+  }
+  
+  .input-consultas {
+    text-align: center;
+  }
+  
+}
+
+
+
+/* Fim Consulta */
+
+
 
 /* Começo - Notas - Código Geral */
 .sumario-notas{
@@ -7982,7 +8389,7 @@ textarea {
   }
 
 
-  @media screen and (max-width: 480px) {
+  @media screen and(min-width:401) and (max-width: 480px) {
     .wave-3{
       margin-top: -20px;
       margin-bottom: 0px;
@@ -8107,6 +8514,135 @@ textarea {
     
 
   }
+
+
+  @media screen and (max-width: 400px) {
+    .wave-3{
+      margin-top: -20px;
+      margin-bottom: 0px;
+    }
+  
+
+      .fale-conosco{
+        margin-top: -10px;
+      }
+      .info-fale-conosco{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      border-radius: 20px;
+      gap: 20px;
+      }
+      
+      .img-fale-conosco{
+      width: 340px;
+      height: 340px;
+      border-radius: 35% 65% 51% 49% / 37% 45% 55% 63% ;
+      box-shadow: 1px 1px 2px rgb(245, 245, 245), 0 0 15px #f9fcfd, 0 0 5px #205872;
+      }
+      
+      
+      .coluna-fale-conosco{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      background-color: rgba(32, 88, 114, 0.178);
+      border-radius: 20px;
+      width: 360px;
+      height: 400px;
+      box-shadow: 1px 1px 2px rgb(245, 245, 245), 0 0 15px #f9fcfd, 0 0 5px #205872;
+      }
+      
+      .coluna-contatos{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 340px;
+      }
+      
+      .email-fale-conosco{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      }
+      
+      .telefone-fale-conosco{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      }
+      
+      .horario-fale-conosco{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      }
+      
+      .mapa-section{
+        margin-top: -48px;
+      }
+      .localizacao-fale-conosco{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 8px;
+      }
+      .localizacao-fale-conosco h4{
+        visibility: hidden;
+
+        }
+      .title-service-fale-conosco {
+        position: relative;
+        text-align: center;
+      }
+      .title-service-fale-conosco::after {
+        content: " ";
+        width: 0%;
+        height: 3px;
+        background-color: #205872;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transition: 0.9s;
+      }
+      
+      .title-service-fale-conosco:hover::after {
+        width: 100%;
+      }
+      
+
+      .mapa-fale-conosco{
+      width: 800px;
+      height: 500px;
+      }
+      
+      .mapa{
+      margin-top: -70px;
+      width: 400px;
+      height: 400px;
+      box-shadow: 1px 1px 2px rgb(245, 245, 245), 0 0 25px #f9fcfd, 0 0 5px #205872;
+      }
+      
+      .wave-mapa {
+        margin: 0 auto;
+      margin-bottom: -115px;
+      /* height: 150px; */
+
+      }
+      
+      .wave-mapa-2 {
+      margin-top: -300px;
+      }
+    
+
+  }
+
+
 
 
 
