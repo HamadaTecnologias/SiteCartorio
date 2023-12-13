@@ -3329,7 +3329,7 @@ color: #16A4E0;
     width: 100%;
   }
 }
-@media screen and (orientation: portrait) and (max-width: 480px) {
+@media screen and (orientation: portrait) and (max-width: 600px) {
   .inicial {
     height: calc(100vh - 350px);
 
@@ -3360,7 +3360,7 @@ color: #16A4E0;
 
 }
 
-@media screen and (min-width: 482px) and (max-width: 849px) {
+@media screen and (min-width: 701px) and (max-width: 1024px) {
   .inicial {
     height: calc(100vh - 60px);
 
@@ -3369,7 +3369,7 @@ color: #16A4E0;
     display: flex;
     flex-direction: row;
     padding: 0 0 0 0.5em;
-    margin-top: -50px;
+    margin-top: -100px;
     margin-bottom: 80px;
   }
   #banner .content {
@@ -3379,47 +3379,14 @@ color: #16A4E0;
   }
 
   #banner .image {
-    margin-top: 0px;
-    max-height: 25vh;
-    width: 60%;
-    margin: 100px 0 0 0px;
+    max-height: 40vh;
+    width:60%;
+    margin: 70px 0 0 0px;
   }
   #banner .banner-h1 {
     color: #ffffff;
     justify-content: center;
     width: 400px;
-  }
-  #banner .banner-p {
-    color: #ffffff;
-  }
-
-}
-
-@media screen and (min-width: 770px) and (max-width: 1024px) {
-  .inicial {
-    height: calc(100vh - 60px);
-
-  }
-  #banner {
-    padding: 0 0 0 1em;
-    margin-top: -50px;
-    margin-bottom: 80px;
-  }
-  #banner .content {
-    margin-top: -65px;
-    padding:0 0 0 10px;
-    width: 400px;
-  }
-
-  #banner .image {
-    margin-top: 0px;
-    max-height: 30vh;
-    width: 50%;
-    margin: 100px 0 0 -50px;
-  }
-  #banner .banner-h1 {
-    color: #ffffff;
-    justify-content: center;
   }
   #banner .banner-p {
     color: #ffffff;
@@ -3436,7 +3403,7 @@ color: #16A4E0;
   #banner {
     padding: 0 0 0 1em;
     margin-top: -50px;
-    margin-bottom: 80px;
+    margin-bottom: 150px;
   }
   #banner .content {
     margin-top: -60px;
@@ -3952,7 +3919,22 @@ textarea {
   transition: 0.3s ease-in-out;
 }
 .slider .card .content p {
+
   text-align: justify;
+}
+.slider .card .content li{
+  
+  text-align: start;
+}
+
+.clique-aqui-carrossel{
+  background-color: #205872;
+  border-radius: 20px;
+  padding: 10px;
+}
+.clique-aqui-carrossel:hover{
+  background-color: #ffffff;
+  color: #205872;
 }
 
 .slider .card:hover .content {
@@ -4309,9 +4291,6 @@ textarea {
     margin-left: -108%;
   }
   
-  #radio3:checked ~ .first {
-    margin-left: -213%;
-  }
   
   .wave-3{
     margin-top: -200px;
@@ -4488,23 +4467,13 @@ textarea {
   }
   
   #radio5:checked ~ .first {
-    margin-left: -199.5%;
+    margin-left: -204%;
   }
   
   #radio6:checked ~ .first {
-    margin-left: -249%;
+    margin-left: -255%;
   }
-  #radio7:checked ~ .first {
-    margin-left: -297.5%;
-  }
-  
-  #radio8:checked ~ .first {
-    margin-left: -354%;
-  }
-  
-  #radio9:checked ~ .first {
-    margin-left: -405%;
-  }
+
   
   
 
@@ -4590,7 +4559,6 @@ textarea {
   justify-content: center;
   align-items: center;
   width: 100%; 
-  max-width: 1700px; 
   height: auto; 
   padding: 30px;
 }
@@ -4817,7 +4785,8 @@ textarea {
   height: 500px;
   justify-content: center;
   align-items: center;
-  border: 5px solid #16a3e0b9;
+  background-color: #16A4E0;
+  border: 5px solid #205872;
   border-radius: 20px;
   margin-top: 20px;
 }
@@ -6523,8 +6492,8 @@ textarea {
 }
 
 .img-coluna {
-  width: 300px;
-  height: 150px;
+  width: 360px;
+  height: 180px;
   border-radius: 20px;
   margin: 40px;
 }
@@ -6620,7 +6589,7 @@ textarea {
 }
 
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) and (max-width: 1600px){
   .content-section {
     display: flex;
   }
@@ -6629,7 +6598,15 @@ textarea {
     width: 25%;
     margin: 10px;
   }
+  .img-coluna{
+    width: 100%;
+    height: 100%;
+  }
+  .coluna-parag {
+   width: 110%;
+  }
 }
+
 /* Fim da Responsividade - Cartório Online */
 
 /* Inicio Consulta Firma */
@@ -6642,6 +6619,7 @@ textarea {
   width: 1855px;
   height: 788px;
 }
+
 .pop-box {
   display: flex;
   flex-direction: column;
@@ -6652,6 +6630,9 @@ textarea {
   margin: -50px 0px 20px 0px;
   padding: 10px;
 }
+
+
+
 .img-consultas {
   display: flex;
   flex-direction: column;
@@ -8110,7 +8091,6 @@ textarea {
       margin-top: -70px;
       width: 400px;
       height: 400px;
-      background-color: #2f00ff;
       box-shadow: 1px 1px 2px rgb(245, 245, 245), 0 0 25px #f9fcfd, 0 0 5px #205872;
       }
       
@@ -8132,3 +8112,166 @@ textarea {
 
 
   /* Fim section Fale Conosco */
+
+
+
+
+
+  /* inicio lgpd */
+
+.section-cartilha{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  border-radius: 20px;
+
+}
+
+.cartilha{
+
+  border-radius: 20px;
+  box-shadow: 2px 2px 3px rgb(18, 79, 119), 0 0 35px #205872, 0 0 10px #205872;
+}
+
+.poli-lgpd{
+  margin: 40px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #205872;
+  border-radius: 20px;
+  box-shadow: 2px 2px 3px rgb(18, 79, 119), 0 0 35px #205872, 0 0 10px #205872;
+}
+
+
+
+/* responsividade lgpd  */
+
+
+@media screen and (max-width: 480px) {
+  .cartilha{
+    width: 350px;
+  }
+
+  }
+
+  @media screen and (min-width: 481px) and (max-width: 600px) {
+    .cartilha{
+      width: 450px;
+    }
+
+  }
+
+  @media screen and (min-width: 601px) and (max-width: 1024px) {
+    .cartilha{
+      width: 600px ;
+    }
+
+  }
+/* fim responsividade lgpd */
+
+  /* fim lgpd */
+
+
+
+  /* inicio notificação cookies */
+
+
+  .CookieMessage {
+    margin-left: 460px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #205872;
+    z-index: 999;
+    display: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px rgb(18, 79, 119), 0 0 35px #205872, 0 0 10px #205872;
+    width: 500px ;
+  }
+  
+  .CookieMessage-content {
+    color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 20px 0 20px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    font-size: 12px;
+  }
+  /* .CookieMessage-content a{
+    color: white;
+  } */
+  .CookieMessage-content p{
+    margin: 0 0 20px 0;
+  }
+
+  .clique-aqui{
+    color: #16A4E0;
+  }
+  
+  .CookieMessage-button {
+    background: #16A4E0;
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+  
+  }
+  .CookieMessage-button:hover{
+    background: #16A4E0;
+  }
+
+
+  /* Responsividade notificação cookie   */
+  @media screen and (max-width: 600px) {
+    .CookieMessage{
+      margin-left: 120px;
+      width: 200px;
+      background-color: #16A4E0;
+    }
+
+    .clique-aqui{
+      color: #205872;
+    }
+    .CookieMessage-button:hover{
+      background: #ffffff;
+      color: #16A4E0;
+    }
+    .CookieMessage-button {
+      background: #205872;
+    
+    }
+
+  }
+
+  @media screen and (min-width: 601px) and (max-width: 1024px) {
+    .CookieMessage{
+      margin-left: 80px;
+
+
+    }
+
+    .clique-aqui{
+      color: #16A4E0;
+    }
+    .CookieMessage-button:hover{
+      background: #ffffff;
+      color: #16A4E0;
+    }
+
+
+  }
+
+  /* fim responsividade notificação cookie   */
+
+
+
+
+  /* fim notificação cookies */

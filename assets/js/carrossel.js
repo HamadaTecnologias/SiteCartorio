@@ -9,7 +9,7 @@ setInterval(function(){
 
 function nextImage(){
     count++
-    if(count>9){
+    if(count>6){
         count=1;
     }
 
