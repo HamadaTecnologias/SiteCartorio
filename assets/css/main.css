@@ -7181,6 +7181,14 @@ textarea {
 
 /* Começo da Responsividade Geral - Página de Notas */
 @media screen and (max-width: 480px) {
+
+  .sumario-notas{
+    padding: 10px;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+  }
+ 
   .container-intro-notas {
     display: flex;
     align-items: center;
@@ -7248,6 +7256,14 @@ textarea {
 }
 
 @media screen and (min-width: 480px) and (max-width: 568px) {
+  
+  .sumario-notas{
+    padding: 10px;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+  }
+ 
   .container-intro-notas {
     display: flex;
     align-items: center;
@@ -7316,6 +7332,14 @@ textarea {
 }
 
 @media screen and (min-width: 568px) and (max-width: 768px) {
+  
+  .sumario-notas{
+    padding: 10px;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+  }
+ 
   .container-intro-notas {
     display: flex;
     align-items: center;

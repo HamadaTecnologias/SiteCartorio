@@ -1,10 +1,10 @@
 <?php
 
 //Credenciais PhP MyAdmin
-$host = "cartorio1oficio.mysql.uhserver.com";
-$user = "erick1";
+$host = "teste9.mysql.uhserver.com";
+$user = "erick11";
 $password = "Erick@6477";
-$database = "cartorio1oficio";
+$database = "teste9";
 
 //Conexão
 $con = mysqli_connect($host,$user,$password,$database);
