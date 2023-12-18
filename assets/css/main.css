@@ -6829,6 +6829,11 @@ textarea {
   padding: 10px;
 }
 
+.pop-box > h4{
+  color: black;
+  margin-bottom: -10px;
+}
+
 
 
 .img-consultas {
@@ -6872,7 +6877,6 @@ textarea {
   }
   
   .pop-box {
-    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6928,7 +6932,6 @@ textarea {
   }
   
   .pop-box {
-    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6984,7 +6987,6 @@ textarea {
   }
   
   .pop-box {
-    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7039,7 +7041,6 @@ textarea {
     height: 500px;
   }
   .pop-box {
-    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -56,8 +56,8 @@
               echo "<h3 style=color:black;>Protocolo encontrado:</h3>";
               // Armazena num array associativo
               while($linha = mysqli_fetch_assoc($registro)){
-
-              echo "<h3 style=color:black;>Data Entrada: ".$linha['DataEntrada']." | Data Registro:" .$linha['DataRegistro']." | Protocolo:" .$linha['Protocolo']." | Natureza:" .$linha['Natureza']." | Matricula:" .$linha['Matricula']." | Situação:" .$linha['Situacao']."<br></h3>";
+                $linha = mb_convert_encoding($linha, 'UTF-8', 'LATIN1');
+                echo "<h4>Data Entrada: ".$linha['DataEntrada']." | Data Registro:" .$linha['DataRegistro']." | Protocolo:" .$linha['Protocolo']." | Natureza:" .$linha['Natureza']." | Matricula:" .$linha['Matricula']." | Situação:" .$linha['Situacao']."</h4>";
               }
         
             }elseif(isset($_GET['protocolo_error'])){
