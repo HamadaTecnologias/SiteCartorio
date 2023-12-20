@@ -17,4 +17,4 @@ jobs:
         server: ${{ secrets.ftp_host }}
         username: ${{ secrets.ftp_user }}
         password: ${{ secrets.ftp_password }}
-        server-dir: 1oficioararuama.com.br\web
+        server-dir: 1oficioararuama.com.br/web/
