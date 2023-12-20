@@ -3253,7 +3253,7 @@ color: #16A4E0;
 .inicial {
   width: 100%;
   height: calc(100vh + 400px);
-  background: no-repeat center/cover url("../css/css-assets/1.png");
+  background: no-repeat center/cover url("../css/banner.svg");
 }
 #banner {
   padding: 0 0 0 3em;
@@ -3914,11 +3914,11 @@ textarea {
 }
 
 
-.slider .card .imgBx img {
-  
+.imgBx > img {
   width: 400px;
   height: 300px;
   border-radius: 20px;
+  background-color: #205872;
 }
 
 .slider .card .content {
