@@ -45,7 +45,7 @@
                 if(isset($_GET['protesto_ok'])){
                   echo "<h3 style=color:black;>FORAM ENCONTRADOS:</h3>";
                   echo "<h3 style=color:black;>Foram  encontrados: ".$_SESSION['i']."  Protesto(s) referentes ao Documento: " .$_SESSION['DocumentoDevedor']."</h3>";
-            
+                  echo "<h3 style=color:black;>ENTRE EM CONTATO COM O CARTÓRIO PARA SABER MAIS</h3>";
                 }elseif(isset($_GET['protesto_error'])){
                   echo "<h3 style=color:black;>Documento Não Encontrado Na Nossa Lista De Protestos!</h3>";
                 }else{
