@@ -3253,7 +3253,7 @@ color: #16A4E0;
 .inicial {
   width: 100%;
   height: calc(100vh + 400px);
-  background: no-repeat center/cover url("../css/banner.svg");
+  background: no-repeat center/cover url("../css/banner.png");
 }
 #banner {
   padding: 0 0 0 3em;
