@@ -112,15 +112,6 @@
                 <div class="third-section-out">
                   <h3 class="title-footer-out">Endereço</h3>
                   <p>
-                    <i class="fa fa-envelope"></i>
-                    <a href="mailto:contato@1oficioararuama.com.br"
-                      >contato@1oficio</a
-                    >
-                    <a href="mailto:contato@1oficioararuama.com.br"
-                      >araruama.com.br</a
-                    >
-                  </p>
-                  <p>
                     <i class="icon solid fa-home"></i>
                     <a
                       href="https://www.google.com/maps/place/Clerk+of+1+Office+of+Justice+Araruama/@-22.8790999,-42.341788,20.5z/data=!4m15!1m8!3m7!1s0x976916fbf530c9:0x923e4618f85e5d03!2sAv.+John+Kennedy+-+Centro,+Araruama+-+RJ,+28970-000!3b1!8m2!3d-22.879095!4d-42.3418327!16s%2Fg%2F11c2khvdsv!3m5!1s0x97693faaaaaaab01:0xa722558a37e942ee!8m2!3d-22.8791799!4d-42.3416458!16s%2Fg%2F11c6cq_sp_?entry=ttu"
@@ -134,25 +125,6 @@
                     <i class="icon solid fa-phone"></i>
                     <a href="#">(22)2664-4492</a>
                   </p>
-                </div>
-
-                <div class="fourth-section-out">
-                  <h3 class="title-footer-out">Contate-nos</h3>
-                  <form action="#">
-                    <div class="form-control">
-                      <input type="text" placeholder="Digite seu E-mail" />
-                    </div>
-                    <div class="form-control">
-                      <textarea
-                        name=""
-                        id=""
-                        cols="10"
-                        rows="5"
-                        placeholder="Escreva-nos uma mensagem..."
-                      ></textarea>
-                    </div>
-                    <button class="button-submit">Enviar</button>
-                  </form>
                 </div>
               </div>
             </div>
@@ -174,11 +146,6 @@
                 target="_blank"
                 >
                 <ion-icon name="logo-whatsapp"></ion-icon
-              ></a>
-            </li>
-            <li>
-              <a href="mailto:contato@1oficioararuama.com.br" target="_blank"
-                ><ion-icon name="mail-outline"></ion-icon
               ></a>
             </li>
             <li>
